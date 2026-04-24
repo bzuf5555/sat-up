@@ -1,0 +1,123 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Sedap." [level=1] [ref=e6]
+      - paragraph [ref=e7]: Zamonaviy Admin Paneli
+    - navigation [ref=e8]:
+      - link "Boshqaruv" [ref=e9] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e10]
+        - text: Boshqaruv
+      - link "Buyurtmalar ro'yxati" [ref=e15] [cursor=pointer]:
+        - /url: /orderlist
+        - img [ref=e16]
+        - text: Buyurtmalar ro'yxati
+      - link "Buyurtma tafsiloti" [ref=e19] [cursor=pointer]:
+        - /url: /orderdetail
+        - img [ref=e20]
+        - text: Buyurtma tafsiloti
+      - link "Mijozlar" [ref=e23] [cursor=pointer]:
+        - /url: /customer
+        - img [ref=e24]
+        - text: Mijozlar
+      - link "Tahlil" [ref=e29] [cursor=pointer]:
+        - /url: /analytics
+        - img [ref=e30]
+        - text: Tahlil
+      - link "Sharhlar" [ref=e32] [cursor=pointer]:
+        - /url: /reviews
+        - img [ref=e33]
+        - text: Sharhlar
+      - link "Taomlar" [ref=e35] [cursor=pointer]:
+        - /url: /foods
+        - img [ref=e36]
+        - text: Taomlar
+      - link "Mijoz profili" [ref=e41] [cursor=pointer]:
+        - /url: /customerdetail
+        - img [ref=e42]
+        - text: Mijoz profili
+      - link "Kalendar" [ref=e46] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e47]
+        - text: Kalendar
+      - link "Chat" [ref=e49] [cursor=pointer]:
+        - /url: /chat
+        - img [ref=e50]
+        - text: Chat
+      - link "Hamyon" [ref=e52] [cursor=pointer]:
+        - /url: /wallet
+        - img [ref=e53]
+        - text: Hamyon
+    - generic [ref=e56]:
+      - paragraph [ref=e57]: Menyularingizni quyidagi tugma orqali tartibga soling!
+      - button "Menyu qo'shish" [ref=e58]:
+        - img [ref=e59]
+        - text: Menyu qo'shish
+    - generic [ref=e60]:
+      - paragraph [ref=e61]: Sedap Restaurant Admin
+      - paragraph [ref=e62]: © 2024 All Rights Reserved
+  - generic [ref=e63]:
+    - banner [ref=e64]:
+      - generic [ref=e65]:
+        - img [ref=e66]
+        - textbox "Qidirish..." [ref=e69]
+      - generic [ref=e70]:
+        - button "🇺🇿 UZ" [ref=e72]:
+          - img [ref=e73]
+          - generic [ref=e76]: 🇺🇿
+          - generic [ref=e77]: UZ
+        - button [ref=e78]:
+          - img [ref=e79]
+        - button "3" [ref=e81]:
+          - img [ref=e82]
+          - generic [ref=e85]: "3"
+        - button "1" [ref=e86]:
+          - img [ref=e87]
+          - generic [ref=e89]: "1"
+        - button "2" [ref=e90]:
+          - img [ref=e91]
+          - generic [ref=e93]: "2"
+        - button "5" [ref=e94]:
+          - img [ref=e95]
+          - generic [ref=e98]: "5"
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - text: Salom,
+            - strong [ref=e101]: Aziz
+          - img "avatar" [ref=e102] [cursor=pointer]
+    - main [ref=e103]:
+      - generic [ref=e104]:
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - generic [ref=e107]:
+              - img [ref=e108]
+              - textbox "Qidirish" [ref=e111]
+            - button [ref=e112]:
+              - img [ref=e113]
+          - paragraph [ref=e115]: Kontakt topilmadi
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - generic [ref=e118]:
+              - img [ref=e119]
+              - generic [ref=e120]:
+                - heading [level=3]
+                - paragraph [ref=e121]: 4 Faol
+            - generic [ref=e122]:
+              - img "member" [ref=e123]
+              - img "member" [ref=e124]
+              - img "member" [ref=e125]
+              - img "member" [ref=e126]
+              - generic [ref=e127]: "+2"
+          - generic [ref=e130]:
+            - generic [ref=e131]:
+              - button [ref=e132]:
+                - img [ref=e133]
+              - button [ref=e135]:
+                - img [ref=e136]
+            - textbox "Xabar yozing..." [ref=e139]
+            - button "Bekor" [ref=e140]:
+              - img [ref=e141]
+              - text: Bekor
+            - button "Yuborish" [ref=e144]:
+              - img [ref=e145]
+              - text: Yuborish

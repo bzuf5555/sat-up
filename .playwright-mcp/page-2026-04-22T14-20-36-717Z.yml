@@ -1,0 +1,320 @@
+- generic [ref=e58]:
+  - complementary [ref=e59]:
+    - generic [ref=e60]:
+      - heading "Sedap." [level=1] [ref=e61]
+      - paragraph [ref=e62]: Zamonaviy Admin Paneli
+    - navigation [ref=e63]:
+      - link "Boshqaruv" [ref=e64] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e65]
+        - text: Boshqaruv
+      - link "Buyurtmalar ro'yxati" [ref=e70] [cursor=pointer]:
+        - /url: /orderlist
+        - img [ref=e71]
+        - text: Buyurtmalar ro'yxati
+      - link "Buyurtma tafsiloti" [ref=e74] [cursor=pointer]:
+        - /url: /orderdetail
+        - img [ref=e75]
+        - text: Buyurtma tafsiloti
+      - link "Mijozlar" [ref=e78] [cursor=pointer]:
+        - /url: /customer
+        - img [ref=e79]
+        - text: Mijozlar
+      - link "Tahlil" [ref=e84] [cursor=pointer]:
+        - /url: /analytics
+        - img [ref=e85]
+        - text: Tahlil
+      - link "Sharhlar" [ref=e87] [cursor=pointer]:
+        - /url: /reviews
+        - img [ref=e88]
+        - text: Sharhlar
+      - link "Taomlar" [ref=e90] [cursor=pointer]:
+        - /url: /foods
+        - img [ref=e91]
+        - text: Taomlar
+      - link "Mijoz profili" [ref=e96] [cursor=pointer]:
+        - /url: /customerdetail
+        - img [ref=e97]
+        - text: Mijoz profili
+      - link "Kalendar" [ref=e101] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e102]
+        - text: Kalendar
+      - link "Chat" [ref=e104] [cursor=pointer]:
+        - /url: /chat
+        - img [ref=e105]
+        - text: Chat
+      - link "Hamyon" [ref=e107] [cursor=pointer]:
+        - /url: /wallet
+        - img [ref=e108]
+        - text: Hamyon
+    - generic [ref=e111]:
+      - paragraph [ref=e112]: Menyularingizni quyidagi tugma orqali tartibga soling!
+      - button "Menyu qo'shish" [ref=e113]:
+        - img [ref=e114]
+        - text: Menyu qo'shish
+    - generic [ref=e115]:
+      - paragraph [ref=e116]: Sedap Restaurant Admin
+      - paragraph [ref=e117]: © 2024 All Rights Reserved
+  - generic [ref=e118]:
+    - banner [ref=e119]:
+      - generic [ref=e120]:
+        - img [ref=e121]
+        - textbox "Qidirish..." [ref=e124]
+      - generic [ref=e125]:
+        - button "🇺🇿 UZ" [ref=e127]:
+          - img [ref=e128]
+          - generic [ref=e131]: 🇺🇿
+          - generic [ref=e132]: UZ
+        - button [ref=e133]:
+          - img [ref=e134]
+        - button "3" [ref=e136]:
+          - img [ref=e137]
+          - generic [ref=e140]: "3"
+        - button "1" [ref=e141]:
+          - img [ref=e142]
+          - generic [ref=e144]: "1"
+        - button "2" [ref=e145]:
+          - img [ref=e146]
+          - generic [ref=e148]: "2"
+        - button "5" [ref=e149]:
+          - img [ref=e150]
+          - generic [ref=e153]: "5"
+        - generic [ref=e154]:
+          - generic [ref=e155]:
+            - text: Salom,
+            - strong [ref=e156]: Aziz
+          - img "avatar" [ref=e157] [cursor=pointer]
+    - main [ref=e158]:
+      - generic [ref=e159]:
+        - generic [ref=e160]:
+          - generic [ref=e161]:
+            - heading "Dashboard" [level=2] [ref=e162]
+            - paragraph [ref=e163]: Hi, Samantha. Welcome back to Sedap Admin!
+          - button "Filter Periode 17 April 2025 - 31 May 2025" [ref=e164]:
+            - img [ref=e165]
+            - generic [ref=e167]: Filter Periode
+            - generic [ref=e168]: 17 April 2025 - 31 May 2025
+            - img [ref=e169]
+        - generic [ref=e171]:
+          - generic [ref=e172]:
+            - img [ref=e174]
+            - generic [ref=e177]:
+              - paragraph [ref=e178]: "75"
+              - paragraph [ref=e179]: Total Orders
+              - paragraph [ref=e180]: +1.01 (day)
+          - generic [ref=e181]:
+            - img [ref=e183]
+            - generic [ref=e187]:
+              - paragraph [ref=e188]: "357"
+              - paragraph [ref=e189]: Total Delivered
+              - paragraph [ref=e190]: +4.2 (60 days)
+          - generic [ref=e191]:
+            - img [ref=e193]
+            - generic [ref=e197]:
+              - paragraph [ref=e198]: "65"
+              - paragraph [ref=e199]: Total Canceled
+              - paragraph [ref=e200]: "-03.1 (60 days)"
+          - generic [ref=e201]:
+            - img [ref=e203]
+            - generic [ref=e205]:
+              - paragraph [ref=e206]: $128
+              - paragraph [ref=e207]: Total Revenue
+              - paragraph [ref=e208]: +8.01 (60 days)
+        - generic [ref=e209]:
+          - generic [ref=e210]:
+            - generic [ref=e211]:
+              - heading "Pie Chart" [level=3] [ref=e212]
+              - generic [ref=e213]:
+                - generic [ref=e214] [cursor=pointer]:
+                  - checkbox "Chart" [checked] [ref=e215]
+                  - text: Chart
+                - generic [ref=e216] [cursor=pointer]: Show Value
+                - button [ref=e218]:
+                  - img [ref=e219]
+            - generic [ref=e223]:
+              - generic [ref=e224]:
+                - generic [ref=e225]:
+                  - img [ref=e226]
+                  - generic [ref=e228]: 81%
+                - paragraph [ref=e229]: Total Order
+              - generic [ref=e230]:
+                - generic [ref=e231]:
+                  - img [ref=e232]
+                  - generic [ref=e234]: 22%
+                - paragraph [ref=e235]: Customer Growth
+              - generic [ref=e236]:
+                - generic [ref=e237]:
+                  - img [ref=e238]
+                  - generic [ref=e240]: 62%
+                - paragraph [ref=e241]: Total Revenue
+          - generic [ref=e242]:
+            - generic [ref=e243]:
+              - heading "Chart Order" [level=3] [ref=e244]
+              - button "Save Report" [ref=e245]:
+                - img [ref=e246]
+                - text: Save Report
+            - paragraph [ref=e249]: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            - img [ref=e251]
+        - generic [ref=e252]:
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - heading "Total Revenue" [level=3] [ref=e255]
+              - generic [ref=e256]:
+                - generic [ref=e257]: "2024"
+                - generic [ref=e259]: "2021"
+            - img [ref=e262]
+          - generic [ref=e263]:
+            - generic [ref=e264]:
+              - heading "Customer Map" [level=3] [ref=e265]
+              - generic [ref=e266]:
+                - combobox [ref=e267]:
+                  - option "Weekly" [selected]
+                  - option "Monthly"
+                - button [ref=e268]:
+                  - img [ref=e269]
+            - img [ref=e274]
+        - generic [ref=e275]:
+          - generic [ref=e276]:
+            - generic [ref=e277]:
+              - heading "Most Ordered Food" [level=3] [ref=e278]
+              - paragraph [ref=e279]: Lorem ipsum dolor sit amet, consectetur
+            - generic [ref=e280]:
+              - button "Monthly" [ref=e281]
+              - button "Weekly" [ref=e282]
+              - button "Daily" [ref=e283]
+          - generic [ref=e284]:
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - img "Spicy Mozzarella with Barbeque" [ref=e287]
+                - generic [ref=e288]:
+                  - paragraph [ref=e289]: Spicy Mozzarella with Barbeque
+                  - paragraph [ref=e290]: Noodle
+              - generic [ref=e291]: $12.56
+            - generic [ref=e292]:
+              - generic [ref=e293]:
+                - img "Burger Jumbo Special With Spicy" [ref=e294]
+                - generic [ref=e295]:
+                  - paragraph [ref=e296]: Burger Jumbo Special With Spicy
+                  - paragraph [ref=e297]: Burger
+              - generic [ref=e298]: $12.56
+            - generic [ref=e299]:
+              - generic [ref=e300]:
+                - img "Pizza la Pizza Special Nuggets" [ref=e301]
+                - generic [ref=e302]:
+                  - paragraph [ref=e303]: Pizza la Pizza Special Nuggets
+                  - paragraph [ref=e304]: Pizza
+              - generic [ref=e305]: $12.56
+            - generic [ref=e306]:
+              - generic [ref=e307]:
+                - img "Spicy Mozzarella with Barbeque" [ref=e308]
+                - generic [ref=e309]:
+                  - paragraph [ref=e310]: Spicy Mozzarella with Barbeque
+                  - paragraph [ref=e311]: Noodle
+              - generic [ref=e312]: $12.56
+            - generic [ref=e313]:
+              - generic [ref=e314]:
+                - img "Sprite Flavour with Avocado Juice" [ref=e315]
+                - generic [ref=e316]:
+                  - paragraph [ref=e317]: Sprite Flavour with Avocado Juice
+                  - paragraph [ref=e318]: Sprite
+              - generic [ref=e319]: $12.56
+            - generic [ref=e320]:
+              - generic [ref=e321]:
+                - img "Spicy Mozzarella with Barbeque" [ref=e322]
+                - generic [ref=e323]:
+                  - paragraph [ref=e324]: Spicy Mozzarella with Barbeque
+                  - paragraph [ref=e325]: Noodle
+              - generic [ref=e326]: $12.56
+            - generic [ref=e327]:
+              - generic [ref=e328]:
+                - img "Burger Jumbo Special With Spicy" [ref=e329]
+                - generic [ref=e330]:
+                  - paragraph [ref=e331]: Burger Jumbo Special With Spicy
+                  - paragraph [ref=e332]: Burger
+              - generic [ref=e333]: $12.56
+            - generic [ref=e334]:
+              - generic [ref=e335]:
+                - img "Pizza la Pizza Special Nuggets" [ref=e336]
+                - generic [ref=e337]:
+                  - paragraph [ref=e338]: Pizza la Pizza Special Nuggets
+                  - paragraph [ref=e339]: Pizza
+              - generic [ref=e340]: $12.56
+            - generic [ref=e341]:
+              - generic [ref=e342]:
+                - img "Spicy Mozzarella with Barbeque" [ref=e343]
+                - generic [ref=e344]:
+                  - paragraph [ref=e345]: Spicy Mozzarella with Barbeque
+                  - paragraph [ref=e346]: Noodle
+              - generic [ref=e347]: $12.56
+            - generic [ref=e348]:
+              - generic [ref=e349]:
+                - img "Sprite Flavour with Avocado Juice" [ref=e350]
+                - generic [ref=e351]:
+                  - paragraph [ref=e352]: Sprite Flavour with Avocado Juice
+                  - paragraph [ref=e353]: Sprite
+              - generic [ref=e354]: $12.56
+            - generic [ref=e355]:
+              - generic [ref=e356]:
+                - img "lagmon , xamir , sho'rvasi , gosht , balg'ar , kashnich" [ref=e357]
+                - generic [ref=e358]:
+                  - paragraph [ref=e359]: lagmon , xamir , sho'rvasi , gosht , balg'ar , kashnich
+                  - paragraph [ref=e360]: achiq , uksus
+              - generic [ref=e361]: $12.56
+        - generic [ref=e362]:
+          - generic [ref=e363]:
+            - generic [ref=e364]:
+              - heading "Customer Review" [level=3] [ref=e365]
+              - paragraph [ref=e366]: Eum fuga consequuntur uladzips et.
+            - generic [ref=e367]:
+              - button "‹" [ref=e368]
+              - button "›" [ref=e369]
+          - generic [ref=e370]:
+            - generic [ref=e371]:
+              - generic [ref=e372]:
+                - generic [ref=e373]:
+                  - img "Jons Sena" [ref=e374]
+                  - generic [ref=e375]:
+                    - paragraph [ref=e376]: Jons Sena
+                    - paragraph [ref=e377]: 2 days ago
+                - paragraph [ref=e378]: Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text.
+                - generic [ref=e379]:
+                  - img [ref=e380]
+                  - img [ref=e382]
+                  - img [ref=e384]
+                  - img [ref=e386]
+                  - img [ref=e388]
+                  - generic [ref=e390]: "4.5"
+              - img "food" [ref=e391]
+            - generic [ref=e392]:
+              - generic [ref=e393]:
+                - generic [ref=e394]:
+                  - img "Sofia" [ref=e395]
+                  - generic [ref=e396]:
+                    - paragraph [ref=e397]: Sofia
+                    - paragraph [ref=e398]: 2 days ago
+                - paragraph [ref=e399]: Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text.
+                - generic [ref=e400]:
+                  - img [ref=e401]
+                  - img [ref=e403]
+                  - img [ref=e405]
+                  - img [ref=e407]
+                  - img [ref=e409]
+                  - generic [ref=e411]: "4"
+              - img "food" [ref=e412]
+            - generic [ref=e413]:
+              - generic [ref=e414]:
+                - generic [ref=e415]:
+                  - img "Anandreansyah" [ref=e416]
+                  - generic [ref=e417]:
+                    - paragraph [ref=e418]: Anandreansyah
+                    - paragraph [ref=e419]: 2 days ago
+                - paragraph [ref=e420]: Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text.
+                - generic [ref=e421]:
+                  - img [ref=e422]
+                  - img [ref=e424]
+                  - img [ref=e426]
+                  - img [ref=e428]
+                  - img [ref=e430]
+                  - generic [ref=e432]: "4.5"
+              - img "food" [ref=e433]

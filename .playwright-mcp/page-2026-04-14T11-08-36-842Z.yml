@@ -1,0 +1,180 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Sedap." [level=1] [ref=e6]
+      - paragraph [ref=e7]: Modern Admin Dashboard
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Order List" [ref=e15] [cursor=pointer]:
+        - /url: /orderlist
+        - img [ref=e16]
+        - text: Order List
+      - link "Order Detail" [ref=e19] [cursor=pointer]:
+        - /url: /orderdetail
+        - img [ref=e20]
+        - text: Order Detail
+      - link "Customer" [ref=e23] [cursor=pointer]:
+        - /url: /customer
+        - img [ref=e24]
+        - text: Customer
+      - link "Analytics" [ref=e29] [cursor=pointer]:
+        - /url: /analytics
+        - img [ref=e30]
+        - text: Analytics
+      - link "Reviews" [ref=e32] [cursor=pointer]:
+        - /url: /reviews
+        - img [ref=e33]
+        - text: Reviews
+      - link "Foods" [ref=e35] [cursor=pointer]:
+        - /url: /foods
+        - img [ref=e36]
+        - text: Foods
+      - link "Food Detail" [ref=e41] [cursor=pointer]:
+        - /url: /fooddetail
+        - img [ref=e42]
+        - text: Food Detail
+      - link "Customer Detail" [ref=e44] [cursor=pointer]:
+        - /url: /customerdetail
+        - img [ref=e45]
+        - text: Customer Detail
+      - link "Calendar" [ref=e49] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e50]
+        - text: Calendar
+      - link "Chat" [ref=e52] [cursor=pointer]:
+        - /url: /chat
+        - img [ref=e53]
+        - text: Chat
+      - link "Wallet" [ref=e55] [cursor=pointer]:
+        - /url: /wallet
+        - img [ref=e56]
+        - text: Wallet
+    - generic [ref=e59]:
+      - paragraph [ref=e60]: Please, organize your menus through button below!
+      - button "Add Menus" [ref=e61]:
+        - img [ref=e62]
+        - text: Add Menus
+    - generic [ref=e63]:
+      - paragraph [ref=e64]: Sedap Restaurant Admin Dashboard
+      - paragraph [ref=e65]: © 2024 All Rights Reserved
+      - paragraph [ref=e66]: Made with ❤ by Themesberg
+  - generic [ref=e67]:
+    - banner [ref=e68]:
+      - generic [ref=e69]:
+        - img [ref=e70]
+        - textbox "Search here" [ref=e73]
+      - generic [ref=e74]:
+        - button "3" [ref=e75]:
+          - img [ref=e76]
+          - generic [ref=e79]: "3"
+        - button "1" [ref=e80]:
+          - img [ref=e81]
+          - generic [ref=e83]: "1"
+        - button "2" [ref=e84]:
+          - img [ref=e85]
+          - generic [ref=e87]: "2"
+        - button "5" [ref=e88]:
+          - img [ref=e89]
+          - generic [ref=e92]: "5"
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - text: Hello,
+            - strong [ref=e95]: Samantha
+          - img "avatar" [ref=e96]
+    - main [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - img [ref=e102]
+              - textbox "Search" [ref=e105]
+            - button [ref=e106]:
+              - img [ref=e107]
+          - generic [ref=e108]:
+            - paragraph [ref=e109]: Pinned Message
+            - button "Robert Johnson Robert Johnson 2m Hey, how's the order?" [ref=e110]:
+              - img "Robert Johnson" [ref=e112]
+              - generic [ref=e114]:
+                - generic [ref=e115]:
+                  - paragraph [ref=e116]: Robert Johnson
+                  - generic [ref=e117]: 2m
+                - paragraph [ref=e118]: Hey, how's the order?
+            - button "Chloe Jake Chloe Jake 15m The pasta was amazing!" [ref=e119]:
+              - img "Chloe Jake" [ref=e121]
+              - generic [ref=e123]:
+                - generic [ref=e124]:
+                  - paragraph [ref=e125]: Chloe Jake
+                  - generic [ref=e126]: 15m
+                - paragraph [ref=e127]: The pasta was amazing!
+            - paragraph [ref=e128]: Recent Message
+            - button "Roberto Roberto 1h Let's start our discussion..." [ref=e129]:
+              - img "Roberto" [ref=e131]
+              - generic [ref=e133]:
+                - generic [ref=e134]:
+                  - paragraph [ref=e135]: Roberto
+                  - generic [ref=e136]: 1h
+                - paragraph [ref=e137]: Let's start our discussion...
+            - button "Lisa Blakenship Lisa Blakenship 3h I'll check the delivery" [ref=e138]:
+              - img "Lisa Blakenship" [ref=e140]
+              - generic [ref=e141]:
+                - generic [ref=e142]:
+                  - paragraph [ref=e143]: Lisa Blakenship
+                  - generic [ref=e144]: 3h
+                - paragraph [ref=e145]: I'll check the delivery
+            - button "Chris Braun Chris Braun 5h Thanks for the update!" [ref=e146]:
+              - img "Chris Braun" [ref=e148]
+              - generic [ref=e149]:
+                - generic [ref=e150]:
+                  - paragraph [ref=e151]: Chris Braun
+                  - generic [ref=e152]: 5h
+                - paragraph [ref=e153]: Thanks for the update!
+            - button "James Sudost James Sudost 1d Sure, let me know" [ref=e154]:
+              - img "James Sudost" [ref=e156]
+              - generic [ref=e157]:
+                - generic [ref=e158]:
+                  - paragraph [ref=e159]: James Sudost
+                  - generic [ref=e160]: 1d
+                - paragraph [ref=e161]: Sure, let me know
+        - generic [ref=e162]:
+          - generic [ref=e163]:
+            - generic [ref=e164]:
+              - img "Roberto" [ref=e165]
+              - generic [ref=e166]:
+                - heading "Roberto" [level=3] [ref=e167]
+                - paragraph [ref=e168]: 4 Active
+            - generic [ref=e169]:
+              - img "member" [ref=e170]
+              - img "member" [ref=e171]
+              - img "member" [ref=e172]
+              - img "member" [ref=e173]
+              - generic [ref=e174]: "+2"
+          - generic [ref=e175]:
+            - generic [ref=e177]:
+              - generic [ref=e178]: Hi everyone! Let's start our discussion now about kick off meeting next week.
+              - paragraph [ref=e179]: 10:30 AM
+            - generic [ref=e181]:
+              - generic [ref=e182]: Is everyone ok about that schedule?
+              - paragraph [ref=e183]: 10:32 AM
+            - generic [ref=e185]:
+              - paragraph [ref=e186]: Evan Tanger
+              - generic [ref=e187]: Let's have it next thursday next week, I can't attend the meeting if it was scheduled in Monday
+              - paragraph [ref=e188]: 10:35 AM
+            - generic [ref=e190]:
+              - generic [ref=e191]: I'd have it in that day. I will I'll travel out of town next week.
+              - paragraph [ref=e192]: 10:38 AM
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - button [ref=e196]:
+                - img [ref=e197]
+              - button [ref=e199]:
+                - img [ref=e200]
+            - textbox "Write your message..." [ref=e203]
+            - button "Cancel" [ref=e204]:
+              - img [ref=e205]
+              - text: Cancel
+            - button "Send" [ref=e208]:
+              - img [ref=e209]
+              - text: Send

@@ -1,0 +1,46 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - img [ref=e8]
+      - generic [ref=e10]: Kinetic Atelier
+    - heading "Raqamli innovatsiyalar markazi" [level=1] [ref=e12]:
+      - text: Raqamli
+      - text: innovatsiyalar
+      - text: markazi
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: "\"Eng yaxshi natijalarga faqat mukammallikka intilish orqali erishiladi.\""
+      - generic [ref=e15]:
+        - img [ref=e17]
+        - generic [ref=e20]:
+          - generic [ref=e21]: Aziz Rahimov
+          - generic [ref=e22]: Bosh dizayner
+  - generic [ref=e24]:
+    - heading "Tizimga kirish" [level=2] [ref=e25]
+    - paragraph [ref=e26]: Xush kelibsiz! Ma'lumotlaringizni kiriting.
+    - generic [ref=e27]:
+      - generic [ref=e28]: ELEKTRON POCHTA
+      - generic [ref=e29]:
+        - img
+        - textbox "example@mail.com" [ref=e30]
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: PAROL
+        - link "Parolni unutdingizmi?" [ref=e34] [cursor=pointer]:
+          - /url: "#"
+      - generic [ref=e35]:
+        - img
+        - textbox "••••••••" [ref=e36]
+        - button [ref=e37] [cursor=pointer]:
+          - img [ref=e38]
+    - generic [ref=e43] [cursor=pointer]: Meni eslab qol
+    - button "Kirish" [ref=e44] [cursor=pointer]
+    - generic [ref=e47]: YOKI BILAN DAVOM ETISH
+    - button "Google" [ref=e49] [cursor=pointer]:
+      - img [ref=e50]
+      - generic [ref=e55]: Google
+    - paragraph [ref=e56]:
+      - text: Hisobingiz yo'qmi?
+      - link "Ro'yxatdan o'tish" [ref=e57] [cursor=pointer]:
+        - /url: /signup
+        - link "Ro'yxatdan o'tish" [ref=e58]:
+          - /url: "#"

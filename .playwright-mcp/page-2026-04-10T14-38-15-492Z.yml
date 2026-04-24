@@ -1,0 +1,67 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - img [ref=e8]
+      - generic [ref=e10]: Kinetic Atelier
+    - generic [ref=e11]:
+      - heading "Raqamli innovatsiyalar olamiga kiring" [level=1] [ref=e12]:
+        - text: Raqamli
+        - text: innovatsiyalar
+        - text: olamiga kiring
+      - paragraph [ref=e13]: Biz bilan birga o'z g'oyalaringizni yuqori texnologiyali yechimlarga aylantiring.
+    - generic [ref=e14]:
+      - generic [ref=e15]:
+        - generic [ref=e16]: AR
+        - generic [ref=e17]: SK
+        - generic [ref=e18]: DT
+        - generic [ref=e19]: MN
+      - paragraph [ref=e20]: +2,400 kishi allaqachon bizga qo'shilgan
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - heading "Yangi hisob yaratish" [level=2] [ref=e23]
+      - paragraph [ref=e24]: Bizga qo'shiling va imkoniyatlardan foydalaning.
+      - generic [ref=e25]:
+        - generic [ref=e26]: ISM-SHARIF
+        - generic [ref=e27]:
+          - img
+          - textbox "Aziz Rahimov" [ref=e28]
+      - generic [ref=e29]:
+        - generic [ref=e30]: ELEKTRON POCHTA
+        - generic [ref=e31]:
+          - img
+          - textbox "misol@gmail.com" [ref=e32]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]: PAROL
+          - generic [ref=e36]:
+            - img
+            - textbox "••••••••" [ref=e37]
+            - button [ref=e38] [cursor=pointer]:
+              - img [ref=e39]
+        - generic [ref=e42]:
+          - generic [ref=e43]: TASDIQLASH
+          - generic [ref=e44]:
+            - img
+            - textbox "••••••••" [ref=e45]
+            - button [ref=e46] [cursor=pointer]:
+              - img [ref=e47]
+      - generic [ref=e52] [cursor=pointer]:
+        - text: Men
+        - link "Foydalanish shartlari" [ref=e53]:
+          - /url: "#"
+        - text: va
+        - link "Maxfiylik siyosati" [ref=e54]:
+          - /url: "#"
+        - text: bilan tanishib chiqdim.
+      - button "Ro'yxatdan o'tish" [ref=e55] [cursor=pointer]:
+        - generic [ref=e56]: Ro'yxatdan o'tish
+        - img [ref=e57]
+      - paragraph [ref=e59]:
+        - text: Hisobingiz bormi?
+        - link "Tizimga kirish" [ref=e60] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e63]: YOKI DAVOM ETING
+      - button "Google" [ref=e65] [cursor=pointer]:
+        - img [ref=e66]
+        - generic [ref=e71]: Google
+    - paragraph [ref=e73]: Asosiy ›Ro'yxatdan o'tish

@@ -1,0 +1,11 @@
+- generic [ref=e2]:
+  - heading "Unexpected Application Error!" [level=2] [ref=e3]
+  - heading "addComponents is not a function" [level=3] [ref=e4]
+  - generic [ref=e5]: "TypeError: addComponents is not a function at calendar_default (http://localhost:5173/node_modules/.vite/deps/daisyui_components_calendar_index__js.js?v=4d1c7d24:145:3) at Object.react_stack_bottom_frame (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4d1c7d24:18509:20) at renderWithHooks (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4d1c7d24:5654:24) at updateFunctionComponent (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4d1c7d24:7475:21) at beginWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4d1c7d24:8525:20) at runWithFiberInDEV (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4d1c7d24:997:72) at performUnitOfWork (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4d1c7d24:12561:98) at workLoopSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4d1c7d24:12424:43) at renderRootSync (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4d1c7d24:12408:13) at performWorkOnRoot (http://localhost:5173/node_modules/.vite/deps/react-dom_client.js?v=4d1c7d24:11827:37)"
+  - paragraph [ref=e6]: 💿 Hey developer 👋
+  - paragraph [ref=e7]:
+    - text: You can provide a way better UX than this when your app throws errors by providing your own
+    - code [ref=e8]: ErrorBoundary
+    - text: or
+    - code [ref=e9]: errorElement
+    - text: prop on your route.

@@ -1,0 +1,85 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Sedap." [level=1] [ref=e6]
+      - paragraph [ref=e7]: Modern Admin Dashboard
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e11]
+        - text: Dashboard
+      - link "Order List" [ref=e16] [cursor=pointer]:
+        - /url: /orderlist
+        - img [ref=e18]
+        - text: Order List
+      - link "Order Detail" [ref=e20] [cursor=pointer]:
+        - /url: /orderdetail
+        - img [ref=e22]
+        - text: Order Detail
+      - link "Customer" [ref=e24] [cursor=pointer]:
+        - /url: /customer
+        - img [ref=e26]
+        - text: Customer
+      - link "Analytics" [ref=e28] [cursor=pointer]:
+        - /url: /analytics
+        - img [ref=e30]
+        - text: Analytics
+      - link "Reviews" [ref=e32] [cursor=pointer]:
+        - /url: /reviews
+        - img [ref=e34]
+        - text: Reviews
+      - link "Foods" [ref=e36] [cursor=pointer]:
+        - /url: /foods
+        - img [ref=e38]
+        - text: Foods
+      - link "Food Detail" [ref=e40] [cursor=pointer]:
+        - /url: /fooddetail
+        - img [ref=e42]
+        - text: Food Detail
+      - link "Customer Detail" [ref=e44] [cursor=pointer]:
+        - /url: /customerdetail
+        - img [ref=e46]
+        - text: Customer Detail
+      - link "Calendar" [ref=e48] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e50]
+        - text: Calendar
+      - link "Chat" [ref=e52] [cursor=pointer]:
+        - /url: /chat
+        - img [ref=e54]
+        - text: Chat
+      - link "Wallet" [ref=e56] [cursor=pointer]:
+        - /url: /wallet
+        - img [ref=e58]
+        - text: Wallet
+    - generic [ref=e60]:
+      - paragraph [ref=e61]: Please, organize your menus through button below!
+      - button "+ Add Menus" [ref=e62]
+    - generic [ref=e63]:
+      - paragraph [ref=e64]: Sedap Restaurant Admin Dashboard
+      - paragraph [ref=e65]: © 2024 All Rights Reserved
+      - paragraph [ref=e66]: Made with ❤ by Themesberg
+  - generic [ref=e67]:
+    - banner [ref=e68]:
+      - generic [ref=e69]:
+        - img [ref=e70]
+        - textbox "Search here" [ref=e72]
+      - generic [ref=e73]:
+        - button "3" [ref=e74]:
+          - img [ref=e75]
+          - generic [ref=e77]: "3"
+        - button "1" [ref=e78]:
+          - img [ref=e79]
+          - generic [ref=e81]: "1"
+        - button "2" [ref=e82]:
+          - img [ref=e83]
+          - generic [ref=e85]: "2"
+        - button "5" [ref=e86]:
+          - img [ref=e87]
+          - generic [ref=e89]: "5"
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - text: Hello,
+            - strong [ref=e92]: Samantha
+          - img "avatar" [ref=e93]
+    - main [ref=e94]

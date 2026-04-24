@@ -1,0 +1,1824 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Aziz",
+      "surname": "Rahimov",
+      "email": "aziz@mail.com",
+      "password": "aziz123",
+      "age": 25,
+      "number": "+998901234567"
+    },
+    {
+      "id": "2",
+      "name": "Dilnoza",
+      "surname": "Karimova",
+      "email": "dilnoza@mail.com",
+      "password": "dilnoza123",
+      "age": 22,
+      "number": "+998912345678"
+    },
+    {
+      "id": "3",
+      "name": "Sardor",
+      "surname": "Toshmatov",
+      "email": "sardor@mail.com",
+      "password": "sardor123",
+      "age": 28,
+      "number": "+998933456789"
+    },
+    {
+      "id": "4",
+      "name": "Madina",
+      "surname": "Aliyeva",
+      "email": "madina@mail.com",
+      "password": "madina123",
+      "age": 21,
+      "number": "+998944567890"
+    },
+    {
+      "id": "5",
+      "name": "Bobur",
+      "surname": "Nazarov",
+      "email": "bobur@mail.com",
+      "password": "bobur123",
+      "age": 30,
+      "number": "+998955678901"
+    },
+    {
+      "id": "6",
+      "name": "Gulnora",
+      "surname": "Ismoilova",
+      "email": "gulnora@mail.com",
+      "password": "gulnora123",
+      "age": 26,
+      "number": "+998966789012"
+    },
+    {
+      "id": "7",
+      "name": "Jasur",
+      "surname": "Xolmatov",
+      "email": "jasur@mail.com",
+      "password": "jasur123",
+      "age": 24,
+      "number": "+998977890123"
+    },
+    {
+      "id": "8",
+      "name": "Shahnoza",
+      "surname": "Mirzayeva",
+      "email": "shahnoza@mail.com",
+      "password": "shahnoza123",
+      "age": 23,
+      "number": "+998938901234"
+    },
+    {
+      "id": "9",
+      "name": "Ulugbek",
+      "surname": "Abdullayev",
+      "email": "ulugbek@mail.com",
+      "password": "ulugbek123",
+      "age": 27,
+      "number": "+998949012345"
+    },
+    {
+      "id": "10",
+      "name": "Kamola",
+      "surname": "Yusupova",
+      "email": "kamola@mail.com",
+      "password": "kamola123",
+      "age": 29,
+      "number": "+998950123456"
+    },
+    {
+      "id": "a173",
+      "name": "ErtanEmirhan",
+      "email": "emirhub7777@gmail.com",
+      "password": "777777"
+    },
+    {
+      "id": "46ad",
+      "name": "ErtanEmirhan",
+      "email": "emirhan87887@gmail.com",
+      "password": "777777"
+    }
+  ],
+  "stats": {
+    "totalOrders": 75,
+    "totalDelivered": 357,
+    "totalCanceled": 65,
+    "totalRevenue": 128
+  },
+  "pieCharts": {
+    "totalOrder": 81,
+    "customerGrowth": 22,
+    "totalRevenue": 62
+  },
+  "chartOrder": {
+    "labels": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "data": [
+      120,
+      210,
+      180,
+      310,
+      260,
+      456,
+      390
+    ]
+  },
+  "totalRevenue": {
+    "labels": [
+      "Jan",
+      "Feb",
+      "Mar",
+      "Apr",
+      "May",
+      "Jun",
+      "Jul",
+      "Aug",
+      "Sept",
+      "Oct",
+      "Nov",
+      "Dec"
+    ],
+    "dataset2024": [
+      15000,
+      22000,
+      18000,
+      28000,
+      32000,
+      38000,
+      35000,
+      30000,
+      25000,
+      28000,
+      32000,
+      40000
+    ],
+    "dataset2021": [
+      10000,
+      14000,
+      12000,
+      18000,
+      22000,
+      30000,
+      28000,
+      20000,
+      18000,
+      22000,
+      21981,
+      30000
+    ]
+  },
+  "customerMap": {
+    "labels": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "series1": [
+      55,
+      70,
+      45,
+      60,
+      80,
+      75,
+      65
+    ],
+    "series2": [
+      40,
+      55,
+      35,
+      50,
+      65,
+      60,
+      50
+    ]
+  },
+  "orders": [
+    {
+      "id": "#555231",
+      "date": "26 March 2020, 12:42 AM",
+      "customer": "Mikasa Ackerman",
+      "location": "Corner Street 5th London",
+      "amount": "$184.52",
+      "status": "New Order"
+    },
+    {
+      "id": "#555232",
+      "date": "26 March 2020, 11:42 AM",
+      "customer": "Eren Yeager",
+      "location": "John's Road London 671",
+      "amount": "$184.52",
+      "status": "On Delivery"
+    },
+    {
+      "id": "#555233",
+      "date": "26 March 2020, 12:22 AM",
+      "customer": "Grisha Yeager",
+      "location": "31 The Green London",
+      "amount": "$364.52",
+      "status": "Delivered"
+    },
+    {
+      "id": "#555234",
+      "date": "26 March 2020, 10:42 AM",
+      "customer": "Historia Reuss",
+      "location": "11 Church Road London",
+      "amount": "$184.52",
+      "status": "New Order"
+    },
+    {
+      "id": "#555235",
+      "date": "26 March 2020, 12:00 AM",
+      "customer": "Levi Ackerman",
+      "location": "21 King Street London",
+      "amount": "$564.52",
+      "status": "On Delivery"
+    },
+    {
+      "id": "#555236",
+      "date": "26 March 2020, 13:42 AM",
+      "customer": "Armin Melaney",
+      "location": "14 The Drive London",
+      "amount": "$186.52",
+      "status": "New Order"
+    },
+    {
+      "id": "#555237",
+      "date": "26 March 2020, 14:42 AM",
+      "customer": "Ronald Jamez",
+      "location": "69 Station's Road London",
+      "amount": "$164.00",
+      "status": "New Order"
+    },
+    {
+      "id": "#555238",
+      "date": "26 March 2020, 15:42 AM",
+      "customer": "Anandreansyah",
+      "location": "45 Brighton Hills London",
+      "amount": "$164.02",
+      "status": "Delivered"
+    },
+    {
+      "id": "#555239",
+      "date": "26 March 2020, 16:42 AM",
+      "customer": "Putra Prawira",
+      "location": "15 Leicester Street Road",
+      "amount": "$184.60",
+      "status": "On Delivery"
+    },
+    {
+      "id": "#5552310",
+      "date": "26 March 2020, 18:42 AM",
+      "customer": "John Snow",
+      "location": "7th The Avenue Apartment",
+      "amount": "$164.42",
+      "status": "New Order"
+    },
+    {
+      "id": "#5552311",
+      "date": "26 March 2020, 21:42 AM",
+      "customer": "Snowden Spy",
+      "location": "72 Manchester Street",
+      "amount": "$344.52",
+      "status": "Delivered"
+    },
+    {
+      "id": "#5552312",
+      "date": "26 March 2020, 22:42 AM",
+      "customer": "John Wickerman",
+      "location": "12 Chelsea Road London",
+      "amount": "$74.55",
+      "status": "On Delivery"
+    }
+  ],
+  "orderDetail": {
+    "id": "#5552351",
+    "status": "On Delivery",
+    "customer": {
+      "name": "Wahyu Adi Kurniawan",
+      "avatar": "https://i.pravatar.cc/80?img=12",
+      "role": "Customer",
+      "note": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "address": "6 The Avenue, London EC50 4GN"
+    },
+    "items": [
+      {
+        "id": 1,
+        "name": "Watermelon juice with ice",
+        "category": "MAIN COURSE",
+        "img": "https://images.unsplash.com/photo-1546173159-315724a31696?w=60&h=60&fit=crop",
+        "rating": 4,
+        "reviews": 454,
+        "qty": 5,
+        "price": 10.8,
+        "total": 50.8
+      },
+      {
+        "id": 2,
+        "name": "Watermelon juice with ice",
+        "category": "MAIN COURSE",
+        "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=60&h=60&fit=crop",
+        "rating": 4,
+        "reviews": 454,
+        "qty": 4,
+        "price": 5.79,
+        "total": 20.8
+      },
+      {
+        "id": 3,
+        "name": "Italiano pizza with garlic",
+        "category": "MAIN COURSE",
+        "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=60&h=60&fit=crop",
+        "rating": 4,
+        "reviews": 454,
+        "qty": 3,
+        "price": 16.4,
+        "total": 48.4
+      }
+    ],
+    "history": [
+      {
+        "label": "Order Delivered",
+        "time": null,
+        "active": false
+      },
+      {
+        "label": "On Delivery",
+        "time": "Sat, 25 Jul 2020, 01:24 PM",
+        "active": true
+      },
+      {
+        "label": "Payment Success",
+        "time": "Fri, 22 Jul 2020, 10:44 AM",
+        "active": true
+      },
+      {
+        "label": "Order Created",
+        "time": "Thu, 21 Jul 2020, 11:49 AM",
+        "active": true
+      }
+    ],
+    "delivery": {
+      "name": "Kevin Hobs Jr.",
+      "id": "ID - 42468",
+      "avatar": "https://i.pravatar.cc/50?img=15",
+      "phone": "+12 345 5662 66",
+      "time": "12:52"
+    }
+  },
+  "customers": [
+    {
+      "id": "#C-004560",
+      "joinDate": "27 March 2020, 12:42 AM",
+      "name": "Veronica",
+      "location": "Corner Street 5th, London",
+      "totalSpent": "$78.92",
+      "lastOrder": "$35.35"
+    },
+    {
+      "id": "#C-004561",
+      "joinDate": "28 March 2020, 12:42 AM",
+      "name": "Rio Da Luca",
+      "location": "Emerald Tower 6th, London",
+      "totalSpent": "$8.90",
+      "lastOrder": "$18.75"
+    },
+    {
+      "id": "#C-004562",
+      "joinDate": "29 March 2020, 12:42 AM",
+      "name": "Fernando",
+      "location": "Blessing Hills 1st, London",
+      "totalSpent": "$16.87",
+      "lastOrder": "$75.55"
+    },
+    {
+      "id": "#C-004563",
+      "joinDate": "30 March 2020, 12:42 AM",
+      "name": "Yenni Tan",
+      "location": "Greensand 2nd, London",
+      "totalSpent": "$18.80",
+      "lastOrder": "$57.76"
+    },
+    {
+      "id": "#C-004564",
+      "joinDate": "5 April 2020, 12:42 AM",
+      "name": "Denny Chang",
+      "location": "St. Bakerfield 3rd, London",
+      "totalSpent": "$38.92",
+      "lastOrder": "$21.75"
+    },
+    {
+      "id": "#C-004565",
+      "joinDate": "8 April 2020, 12:42 AM",
+      "name": "Andrea Liaw",
+      "location": "Kingsroad 45th, London",
+      "totalSpent": "$74.92",
+      "lastOrder": "$75.55"
+    },
+    {
+      "id": "#C-004566",
+      "joinDate": "9 April 2020, 12:42 AM",
+      "name": "Siangny The",
+      "location": "11 Church Road, London",
+      "totalSpent": "$78.52",
+      "lastOrder": "$21.61"
+    },
+    {
+      "id": "#C-004567",
+      "joinDate": "11 April 2020, 12:42 AM",
+      "name": "Wanda Maximoff",
+      "location": "21 Long Beach Tower",
+      "totalSpent": "$88.92",
+      "lastOrder": "$61.56"
+    },
+    {
+      "id": "#C-004568",
+      "joinDate": "15 April 2020, 12:42 AM",
+      "name": "Natasya Romanoff",
+      "location": "13 Boulevard Dreams",
+      "totalSpent": "$98.92",
+      "lastOrder": "$55.00"
+    },
+    {
+      "id": "#C-004569",
+      "joinDate": "19 April 2020, 12:42 AM",
+      "name": "Tony Stark",
+      "location": "Sandbay San Tower",
+      "totalSpent": "$28.93",
+      "lastOrder": "$21.00"
+    },
+    {
+      "id": "#C-004570",
+      "joinDate": "10 May 2020, 12:42 AM",
+      "name": "John Banner",
+      "location": "La Plaza de Tower",
+      "totalSpent": "$18.21",
+      "lastOrder": "$21.16"
+    },
+    {
+      "id": "#C-004571",
+      "joinDate": "26 May 2020, 12:42 AM",
+      "name": "Arthur da Roca",
+      "location": "19 St. John Road, London",
+      "totalSpent": "$87.98",
+      "lastOrder": "$16.55"
+    }
+  ],
+  "customerDetail": {
+    "name": "Eren Yeager",
+    "role": "UX Designer",
+    "avatar": "https://i.pravatar.cc/100?img=33",
+    "address": "36 Kings Road 1213, Garden Hills, Chelsea - London",
+    "email": "eren.yeager@mail.co.id",
+    "phone": "+012-345-6789",
+    "company": "Highspeed Studios",
+    "balance": 9425,
+    "cardNumber": "2451 ****** ****",
+    "cardExpiry": "02/21",
+    "cardHolder": "Eren Yeager",
+    "mostOrderedFood": [
+      {
+        "id": 1,
+        "name": "Medium Spicy Spaghetti Italiano",
+        "category": "SPACETIN",
+        "options": "Serve for 2 Person • 2 plate",
+        "price": 12.56,
+        "img": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=60&h=60&fit=crop"
+      },
+      {
+        "id": 2,
+        "name": "Medium Spicy Spaghetti Italiano",
+        "category": "SPACETIN",
+        "options": "Serve for 2 Person • 2 plate",
+        "price": 12.56,
+        "img": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=60&h=60&fit=crop"
+      },
+      {
+        "id": 3,
+        "name": "Medium Spicy Spaghetti Italiano",
+        "category": "SPACETIN",
+        "options": "Serve for 2 Person • 2 plate",
+        "price": 12.56,
+        "img": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=60&h=60&fit=crop"
+      },
+      {
+        "id": 4,
+        "name": "Medium Spicy Spaghetti Italiano",
+        "category": "SPACETIN",
+        "options": "Serve for 2 Person • 2 plate",
+        "price": 12.56,
+        "img": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=60&h=60&fit=crop"
+      },
+      {
+        "id": 5,
+        "name": "Medium Spicy Spaghetti Italiano",
+        "category": "SPACETIN",
+        "options": "Serve for 2 Person • 2 plate",
+        "price": 12.56,
+        "img": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=60&h=60&fit=crop"
+      }
+    ],
+    "mostLikedChart": {
+      "labels": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "spaghetti": [
+        30,
+        45,
+        35,
+        50,
+        60,
+        55,
+        40
+      ],
+      "burger": [
+        20,
+        35,
+        25,
+        40,
+        50,
+        45,
+        30
+      ],
+      "pizza": [
+        15,
+        25,
+        20,
+        30,
+        40,
+        35,
+        25
+      ],
+      "sprite": [
+        10,
+        20,
+        15,
+        25,
+        35,
+        30,
+        20
+      ]
+    },
+    "likedStats": {
+      "totalLikes": 763,
+      "date": "19 Sept 2020",
+      "spaghetti": 69,
+      "burger": 763,
+      "pizza": 321,
+      "sprite": 154
+    }
+  },
+  "analytics": {
+    "chartOrders": {
+      "totalOrders": 257,
+      "avgPerDay": 1245,
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Nov"
+      ],
+      "data": [
+        30000,
+        40000,
+        35000,
+        50000,
+        45000,
+        60000,
+        55000,
+        52000,
+        58000,
+        50000
+      ]
+    },
+    "mostSelling": [
+      {
+        "id": 1,
+        "name": "Medium Spicy Spaghetti Italiano",
+        "category": "Spacetin",
+        "stars": 5,
+        "orders": "3 orders",
+        "price": 12.56,
+        "img": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=60&h=60&fit=crop"
+      },
+      {
+        "id": 2,
+        "name": "Pizza Pear for Kids (Small size)",
+        "category": "Pizza",
+        "stars": 4,
+        "orders": "3 orders",
+        "price": 9.67,
+        "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=60&h=60&fit=crop"
+      },
+      {
+        "id": 3,
+        "name": "Supreme Pizza with Beef Topping",
+        "category": "Pizza",
+        "stars": 4,
+        "orders": "3 orders",
+        "price": 11.21,
+        "img": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=60&h=60&fit=crop"
+      },
+      {
+        "id": 4,
+        "name": "Mozzarella Pizza with Random Topping",
+        "category": "Pizza",
+        "stars": 4,
+        "orders": "1 orders",
+        "price": 8.15,
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=60&h=60&fit=crop"
+      },
+      {
+        "id": 5,
+        "name": "Pizza Pear for Kids (Small size)",
+        "category": "Pizza",
+        "stars": 4,
+        "orders": "1 orders",
+        "price": 9.67,
+        "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=60&h=60&fit=crop"
+      }
+    ],
+    "trending": [
+      {
+        "rank": 1,
+        "name": "Tuna soup spinach with breakege salt",
+        "category": "SPACETIN",
+        "tag": "Main Course",
+        "orders": 524,
+        "trend": "up",
+        "img": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=60&h=60&fit=crop"
+      },
+      {
+        "rank": 2,
+        "name": "Chicken curry special with cucumber",
+        "category": "SPACETIN",
+        "tag": "Main Course",
+        "orders": 215,
+        "trend": "down",
+        "img": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=60&h=60&fit=crop"
+      },
+      {
+        "rank": 3,
+        "name": "Italiano slice mozzarella with garlic",
+        "category": "SPACETIN",
+        "tag": "Main Course",
+        "orders": 120,
+        "trend": "up",
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=60&h=60&fit=crop"
+      },
+      {
+        "rank": 4,
+        "name": "Watermelon mix chocolate juice with ice",
+        "category": "SPACETIN",
+        "tag": "Main Course",
+        "orders": 78,
+        "trend": "up",
+        "img": "https://images.unsplash.com/photo-1546173159-315724a31696?w=60&h=60&fit=crop"
+      },
+      {
+        "rank": 5,
+        "name": "Chicken curry special with cucumber",
+        "category": "SPACETIN",
+        "tag": "Healthy Dishes",
+        "orders": 215,
+        "trend": "down",
+        "img": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=60&h=60&fit=crop"
+      }
+    ],
+    "revenue": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sept"
+      ],
+      "data": [
+        400000,
+        600000,
+        500000,
+        800000,
+        700000,
+        872556,
+        750000,
+        680000,
+        720000
+      ]
+    },
+    "favourites": [
+      {
+        "id": 1,
+        "name": "Medium Spicy Pizza with Vegetables",
+        "category": "Food / Pizza",
+        "rating": 4.5,
+        "reviews": "201k (3km)",
+        "img": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=200&h=160&fit=crop"
+      },
+      {
+        "id": 2,
+        "name": "Chicken Curry Specials with Cucumber",
+        "category": "Food / Chicken",
+        "rating": 4.5,
+        "reviews": "201k (3km)",
+        "img": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=200&h=160&fit=crop"
+      },
+      {
+        "id": 3,
+        "name": "Watermelon Mix Chocolate Juice with Ice",
+        "category": "Drink / Juice",
+        "rating": 4.5,
+        "reviews": "201k (3km)",
+        "img": "https://images.unsplash.com/photo-1546173159-315724a31696?w=200&h=160&fit=crop"
+      },
+      {
+        "id": 4,
+        "name": "Italiano Pizza with Mozzarella Spicy",
+        "category": "Food / Pizza",
+        "rating": 4.5,
+        "reviews": "201k (3km)",
+        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=200&h=160&fit=crop"
+      },
+      {
+        "id": 5,
+        "name": "Burger Jumbolicious Pasta with Barbecue",
+        "category": "Food / Burger",
+        "rating": 4.5,
+        "reviews": "201k (3km)",
+        "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=200&h=160&fit=crop"
+      },
+      {
+        "id": 6,
+        "name": "Bread Fried with Nuggets Barbecue",
+        "category": "Food / Bread",
+        "rating": 4.5,
+        "reviews": "201k (3km)",
+        "img": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=200&h=160&fit=crop"
+      }
+    ]
+  },
+  "reviews": {
+    "featured": [
+      {
+        "id": 1,
+        "foodName": "Chicken Curry Special with Cucumber",
+        "foodCategory": "Main Course",
+        "reviewer": "Roberto Jr.",
+        "reviewerRole": "Graphic Design",
+        "rating": 4.5,
+        "text": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy.",
+        "img": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=240&h=160&fit=crop"
+      },
+      {
+        "id": 2,
+        "foodName": "Spaghetti Special with Cucumber",
+        "foodCategory": "Main Course",
+        "reviewer": "Lord Neil Stark",
+        "reviewerRole": "Programmer",
+        "rating": 4.5,
+        "text": "Fast, professional and friendly service; we ordered for my crew. Everyone enjoyed the meal. It is as spectacular!",
+        "img": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=240&h=160&fit=crop"
+      },
+      {
+        "id": 3,
+        "foodName": "Pizza Mozzarella with Spicy Cream",
+        "foodCategory": "Main Course",
+        "reviewer": "Fredy Plenary",
+        "reviewerRole": "Programmer",
+        "rating": 4.5,
+        "text": "Fast, professional and friendly service; we ordered for my crew. Everyone enjoyed the meal. It is as spectacular!",
+        "img": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=240&h=160&fit=crop"
+      }
+    ],
+    "others": [
+      {
+        "id": 1,
+        "name": "James Kowalski",
+        "avatar": "https://i.pravatar.cc/40?img=11",
+        "role": "Head Planning",
+        "date": "Sabtu, 13 June 2020",
+        "tags": [
+          "Food Service",
+          "Good Place",
+          "Exellent"
+        ],
+        "rating": 3.5,
+        "text": "We recently had dinner with friends at David CC and we all walked away with a great experience. Good food, pleasant environment, personal attention through all the evening. Thanks to the team and we will be back!"
+      },
+      {
+        "id": 2,
+        "name": "Jonathan Fringsmen",
+        "avatar": "https://i.pravatar.cc/40?img=13",
+        "role": "Head Planning",
+        "date": "Sabtu, 13 June 2020",
+        "tags": [
+          "Good Service",
+          "Exellent"
+        ],
+        "rating": 3.5,
+        "text": "We recently had dinner with friends at David CC and we all walked away with a great experience. Good food, pleasant environment, personal attention through all the evening."
+      },
+      {
+        "id": 3,
+        "name": "Trianta Luoa",
+        "avatar": "https://i.pravatar.cc/40?img=15",
+        "role": "Head Planning",
+        "date": "Sabtu, 13 June 2020",
+        "tags": [
+          "Delicious",
+          "Food Service"
+        ],
+        "rating": 3.5,
+        "text": "We recently had dinner with friends at David CC and we all walked away with a great experience. Good food, pleasant environment, personal attention through all the evening."
+      },
+      {
+        "id": 4,
+        "name": "Vernlyn Chong",
+        "avatar": "https://i.pravatar.cc/40?img=20",
+        "role": "Head Planning",
+        "date": "Sabtu, 13 June 2020",
+        "tags": [
+          "Good Service"
+        ],
+        "rating": 3.5,
+        "text": "We recently had dinner with friends at David CC and we all walked away with a great experience. Good food, pleasant environment, personal attention through all the evening."
+      },
+      {
+        "id": 5,
+        "name": "Sofia Pustova",
+        "avatar": "https://i.pravatar.cc/40?img=23",
+        "role": "Head Planning",
+        "date": "Sabtu, 13 June 2020",
+        "tags": [
+          "Exellent",
+          "Delicious"
+        ],
+        "rating": 3.5,
+        "text": "We recently had dinner with friends at David CC and we all walked away with a great experience. Good food, pleasant environment, personal attention through all the evening."
+      }
+    ]
+  },
+  "foods": [
+    {
+      "id": "1",
+      "name": "Spicy Mozzarella with Barbeque",
+      "category": "Food",
+      "subCategory": "Noodle",
+      "img": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=200&h=160&fit=crop",
+      "available": true,
+      "description": "Delicious spicy mozzarella topped with smoky barbeque sauce and fresh herbs.",
+      "ingredients": "Mozzarella cheese, BBQ sauce, noodles, chili flakes, garlic, olive oil, fresh basil",
+      "nutrition": "Calories: 450kcal, Protein: 18g, Carbs: 42g, Fat: 22g"
+    },
+    {
+      "id": "2",
+      "name": "Burger Jumbo Special With Spicy",
+      "category": "Food",
+      "subCategory": "Burger",
+      "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=200&h=160&fit=crop",
+      "available": true,
+      "description": "Jumbo-sized beef burger with spicy jalapeño sauce and crispy lettuce.",
+      "ingredients": "Beef patty, jalapeño, lettuce, tomato, cheddar cheese, pickles, sesame bun",
+      "nutrition": "Calories: 680kcal, Protein: 35g, Carbs: 48g, Fat: 38g"
+    },
+    {
+      "id": "3",
+      "name": "Pizza la Pizza Special Nuggets",
+      "category": "Food",
+      "subCategory": "Pizza",
+      "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=200&h=160&fit=crop",
+      "available": true,
+      "description": "Classic pizza loaded with chicken nuggets, mozzarella and special tomato sauce.",
+      "ingredients": "Pizza dough, chicken nuggets, mozzarella, tomato sauce, oregano, bell peppers",
+      "nutrition": "Calories: 520kcal, Protein: 24g, Carbs: 58g, Fat: 20g"
+    },
+    {
+      "id": "4",
+      "name": "Spicy Mozzarella with Barbeque",
+      "category": "Food",
+      "subCategory": "Noodle",
+      "img": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=200&h=160&fit=crop",
+      "available": true,
+      "description": "Spicy mozzarella noodles with rich barbeque glaze and roasted vegetables.",
+      "ingredients": "Mozzarella cheese, BBQ sauce, egg noodles, zucchini, mushrooms, soy sauce",
+      "nutrition": "Calories: 430kcal, Protein: 16g, Carbs: 44g, Fat: 20g"
+    },
+    {
+      "id": "5",
+      "name": "Sprite Flavour with Avocado Juice",
+      "category": "Drink",
+      "subCategory": "Sprite",
+      "img": "https://images.unsplash.com/photo-1546173159-315724a31696?w=200&h=160&fit=crop",
+      "available": false,
+      "description": "Refreshing sprite blended with creamy avocado juice and a hint of lime.",
+      "ingredients": "Sprite, avocado, lime juice, ice, sugar syrup, mint leaves",
+      "nutrition": "Calories: 180kcal, Protein: 2g, Carbs: 38g, Fat: 6g"
+    },
+    {
+      "id": "6",
+      "name": "Spicy Mozzarella with Barbeque",
+      "category": "Food",
+      "subCategory": "Noodle",
+      "img": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=200&h=160&fit=crop",
+      "available": true,
+      "description": "Fiery mozzarella noodles drizzled with tangy barbeque and fresh scallions.",
+      "ingredients": "Mozzarella, BBQ sauce, udon noodles, scallions, sesame seeds, chili oil",
+      "nutrition": "Calories: 460kcal, Protein: 17g, Carbs: 46g, Fat: 21g"
+    },
+    {
+      "id": "7",
+      "name": "Burger Jumbo Special With Spicy",
+      "category": "Food",
+      "subCategory": "Burger",
+      "img": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=200&h=160&fit=crop",
+      "available": true,
+      "description": "Double-patty jumbo burger with extra spicy sauce and caramelized onions.",
+      "ingredients": "Double beef patty, spicy mayo, caramelized onions, bacon, Swiss cheese, brioche bun",
+      "nutrition": "Calories: 820kcal, Protein: 42g, Carbs: 52g, Fat: 46g"
+    },
+    {
+      "id": "8",
+      "name": "Pizza la Pizza Special Nuggets",
+      "category": "Food",
+      "subCategory": "Pizza",
+      "img": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=200&h=160&fit=crop",
+      "available": true,
+      "description": "Crispy pizza base with golden nuggets, melted cheese and Italian seasoning.",
+      "ingredients": "Pizza dough, chicken nuggets, parmesan, mozzarella, Italian herbs, garlic butter",
+      "nutrition": "Calories: 540kcal, Protein: 26g, Carbs: 56g, Fat: 22g"
+    },
+    {
+      "id": "9",
+      "name": "Spicy Mozzarella with Barbeque",
+      "category": "Food",
+      "subCategory": "Noodle",
+      "img": "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=200&h=160&fit=crop",
+      "available": true,
+      "description": "Authentic spicy mozzarella noodle bowl with homemade barbeque reduction.",
+      "ingredients": "Mozzarella, homemade BBQ reduction, ramen noodles, bok choy, tofu, chili paste",
+      "nutrition": "Calories: 410kcal, Protein: 19g, Carbs: 40g, Fat: 18g"
+    },
+    {
+      "id": "10",
+      "name": "Sprite Flavour with Avocado Juice",
+      "category": "Drink",
+      "subCategory": "Sprite",
+      "img": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=200&h=160&fit=crop",
+      "available": false,
+      "description": "Cool sprite mixed with fresh avocado, perfect for hot summer days.",
+      "ingredients": "Sprite, ripe avocado, crushed ice, honey, lemon zest",
+      "nutrition": "Calories: 190kcal, Protein: 2g, Carbs: 40g, Fat: 7g"
+    },
+    {
+      "id": "ac98",
+      "name": "lagmon , xamir , sho'rvasi , gosht , balg'ar , kashnich",
+      "category": "Soup",
+      "subCategory": "achiq , uksus",
+      "img": "https://cdn-uz.kursiv.media/wp-content/uploads/2025/08/photo_2025-08-15_16-15-10.jpg",
+      "price": 4,
+      "discount": 0,
+      "rating": 5,
+      "description": "",
+      "ingredients": "",
+      "nutrition": "",
+      "available": true
+    }
+  ],
+  "foodDetail": {
+    "id": 2,
+    "name": "Burger Jumbo Special with Spicy",
+    "category": "Food / Burger",
+    "stock": "5 Stock Available",
+    "img": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=240&h=200&fit=crop",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua et acumenstre potentior.",
+    "ingredients": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
+    "nutrition": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+    "revenueChart": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sept"
+      ],
+      "data": [
+        40000,
+        60000,
+        50000,
+        80000,
+        70000,
+        87256,
+        75000,
+        68000,
+        72000
+      ]
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "name": "Johnny Ahmad",
+        "avatar": "https://i.pravatar.cc/40?img=60",
+        "time": "1 hour ago",
+        "rating": 4,
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor."
+      },
+      {
+        "id": 2,
+        "name": "Mario Vania",
+        "avatar": "https://i.pravatar.cc/40?img=50",
+        "time": "1 hour ago",
+        "rating": 3,
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor."
+      },
+      {
+        "id": 3,
+        "name": "Sarah Muellerz",
+        "avatar": "https://i.pravatar.cc/40?img=44",
+        "time": "1 hour ago",
+        "rating": 5,
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor."
+      }
+    ]
+  },
+  "dashboardReviews": [
+    {
+      "id": "1",
+      "name": "Jons Sena",
+      "avatar": "https://i.pravatar.cc/40?img=1",
+      "time": "2 days ago",
+      "text": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text.",
+      "rating": 4.5,
+      "food": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=120&h=120&fit=crop"
+    },
+    {
+      "id": "2",
+      "name": "Sofia",
+      "avatar": "https://i.pravatar.cc/40?img=5",
+      "time": "2 days ago",
+      "text": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text.",
+      "rating": 4,
+      "food": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=120&h=120&fit=crop"
+    },
+    {
+      "id": "3",
+      "name": "Anandreansyah",
+      "avatar": "https://i.pravatar.cc/40?img=8",
+      "time": "2 days ago",
+      "text": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text.",
+      "rating": 4.5,
+      "food": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=120&h=120&fit=crop"
+    }
+  ],
+  "events": [
+    {
+      "id": "1",
+      "day": 2,
+      "month": 3,
+      "year": 2021,
+      "title": "Spicy Risotto",
+      "time": "12:00 AM",
+      "color": "yellow",
+      "badge": "",
+      "description": "Yangi retsept sinash",
+      "priority": "Medium"
+    },
+    {
+      "id": "2",
+      "day": 2,
+      "month": 3,
+      "year": 2021,
+      "title": "Pizza w/ Parmesan With Barbecue",
+      "time": "02:00 PM",
+      "color": "pink",
+      "badge": "Event",
+      "description": "Maxsus tadbir uchun buyurtma",
+      "priority": "High"
+    },
+    {
+      "id": "3",
+      "day": 3,
+      "month": 3,
+      "year": 2021,
+      "title": "Event",
+      "time": "10:00 AM",
+      "color": "green",
+      "badge": "",
+      "description": "Umumiy yig'ilish",
+      "priority": "Low"
+    },
+    {
+      "id": "4",
+      "day": 8,
+      "month": 3,
+      "year": 2021,
+      "title": "New Event",
+      "time": "11:00 AM",
+      "color": "orange",
+      "badge": "",
+      "description": "Yangi menyu taqdimoti",
+      "priority": "High"
+    },
+    {
+      "id": "5",
+      "day": 14,
+      "month": 3,
+      "year": 2021,
+      "title": "Event",
+      "time": "03:00 PM",
+      "color": "blue",
+      "badge": "",
+      "description": "Jamoa uchrashivi",
+      "priority": "Medium"
+    },
+    {
+      "id": "6",
+      "day": 18,
+      "month": 3,
+      "year": 2021,
+      "title": "Spicy Risotto",
+      "time": "01:00 PM",
+      "color": "yellow",
+      "badge": "",
+      "description": "Taom tayyorlash master-klass",
+      "priority": "Medium"
+    },
+    {
+      "id": "7",
+      "day": 18,
+      "month": 3,
+      "year": 2021,
+      "title": "Pizza w/ Parmesan With Barbecue",
+      "time": "05:00 PM",
+      "color": "pink",
+      "badge": "Event",
+      "description": "Kechki maxsus buyurtma",
+      "priority": "High"
+    },
+    {
+      "id": "8",
+      "day": 22,
+      "month": 3,
+      "year": 2021,
+      "title": "Spicy Risotto",
+      "time": "12:00 PM",
+      "color": "yellow",
+      "badge": "Event",
+      "description": "VIP mijoz uchun",
+      "priority": "High"
+    },
+    {
+      "id": "9",
+      "day": 22,
+      "month": 3,
+      "year": 2021,
+      "title": "Pizza w/ Parmesan With Barbecue",
+      "time": "04:00 PM",
+      "color": "pink",
+      "badge": "Event",
+      "description": "Korporativ buyurtma",
+      "priority": "High"
+    },
+    {
+      "id": "10",
+      "day": 25,
+      "month": 3,
+      "year": 2021,
+      "title": "New Event",
+      "time": "09:15 AM",
+      "color": "orange",
+      "badge": "",
+      "description": "Ertalabki reja",
+      "priority": "Low"
+    },
+    {
+      "id": "6a5d",
+      "day": 4,
+      "month": 3,
+      "year": 2026,
+      "title": "xcfgvhbjnkml",
+      "time": "12:00 PM",
+      "color": "orange",
+      "badge": "xdfcgvhbjkml,;",
+      "description": "cvbnm,.",
+      "priority": "Low"
+    },
+    {
+      "id": "5cc4",
+      "day": 2,
+      "month": 3,
+      "year": 2026,
+      "title": "pdd party",
+      "time": "12:00 PM",
+      "color": "yellow",
+      "badge": "vip",
+      "description": "",
+      "priority": "High"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "1",
+      "name": "Robert Johnson",
+      "avatar": "https://i.pravatar.cc/40?img=11",
+      "lastMsg": "Hey, how's the order?",
+      "time": "2m",
+      "online": true,
+      "pinned": true
+    },
+    {
+      "id": "2",
+      "name": "Chloe Jake",
+      "avatar": "https://i.pravatar.cc/40?img=32",
+      "lastMsg": "The pasta was amazing!",
+      "time": "15m",
+      "online": true,
+      "pinned": true
+    },
+    {
+      "id": "3",
+      "name": "Roberto",
+      "avatar": "https://i.pravatar.cc/40?img=12",
+      "lastMsg": "Let's start our discussion...",
+      "time": "1h",
+      "online": true,
+      "pinned": false
+    },
+    {
+      "id": "4",
+      "name": "Lisa Blakenship",
+      "avatar": "https://i.pravatar.cc/40?img=26",
+      "lastMsg": "I'll check the delivery",
+      "time": "3h",
+      "online": false,
+      "pinned": false
+    },
+    {
+      "id": "5",
+      "name": "Chris Braun",
+      "avatar": "https://i.pravatar.cc/40?img=53",
+      "lastMsg": "Thanks for the update!",
+      "time": "5h",
+      "online": false,
+      "pinned": false
+    },
+    {
+      "id": "6",
+      "name": "James Sudost",
+      "avatar": "https://i.pravatar.cc/40?img=60",
+      "lastMsg": "Sure, let me know",
+      "time": "1d",
+      "online": false,
+      "pinned": false
+    },
+    {
+      "id": "e1c1",
+      "name": "cgvhbjnkm",
+      "avatar": "gfhjkl,;./",
+      "lastMsg": "",
+      "time": "now",
+      "online": true,
+      "pinned": false
+    },
+    {
+      "id": "805d",
+      "name": "kot",
+      "avatar": "https://i.pravatar.cc/40?img=39",
+      "lastMsg": "",
+      "time": "now",
+      "online": true,
+      "pinned": false
+    }
+  ],
+  "messages": [
+    {
+      "id": "1",
+      "contactId": 3,
+      "sender": "me",
+      "text": "Hi everyone! Let's start our discussion now about kick off meeting next week.",
+      "time": "10:30 AM"
+    },
+    {
+      "id": "2",
+      "contactId": 3,
+      "sender": "other",
+      "text": "Is everyone ok about that schedule?",
+      "time": "10:32 AM"
+    },
+    {
+      "id": "3",
+      "contactId": 3,
+      "sender": "me",
+      "text": "Let's have it next thursday next week, I can't attend the meeting if it was scheduled in Monday",
+      "time": "10:35 AM",
+      "label": "Evan Tanger"
+    },
+    {
+      "id": "4",
+      "contactId": 3,
+      "sender": "me",
+      "text": "I'd have it in that day. I will I'll travel out of town next week.",
+      "time": "10:38 AM"
+    },
+    {
+      "id": "4ff1",
+      "contactId": "3",
+      "sender": "me",
+      "text": "emir hub",
+      "time": "07:17 PM"
+    },
+    {
+      "id": "34d8",
+      "contactId": "3",
+      "sender": "me",
+      "text": "emir aka",
+      "time": "07:17 PM"
+    },
+    {
+      "id": "b434",
+      "contactId": "3",
+      "sender": "me",
+      "text": "rrr",
+      "time": "07:20 PM"
+    },
+    {
+      "id": "b058",
+      "contactId": "3",
+      "sender": "me",
+      "text": "s",
+      "time": "07:22 PM"
+    },
+    {
+      "id": "894e",
+      "contactId": "1",
+      "sender": "me",
+      "text": "dkm",
+      "time": "07:23 PM"
+    },
+    {
+      "id": "99d8",
+      "contactId": "1",
+      "sender": "me",
+      "text": "asdasd",
+      "time": "07:23 PM"
+    },
+    {
+      "id": "1046",
+      "contactId": "3",
+      "sender": "me",
+      "text": "kot",
+      "time": "07:25 PM"
+    },
+    {
+      "id": "9232",
+      "contactId": "3",
+      "sender": "me",
+      "text": "db",
+      "time": "07:25 PM"
+    },
+    {
+      "id": "37d0",
+      "contactId": "3",
+      "sender": "me",
+      "text": "dnfnms",
+      "time": "07:25 PM"
+    },
+    {
+      "id": "eee3",
+      "contactId": "1",
+      "sender": "me",
+      "text": "asd",
+      "time": "07:25 PM"
+    },
+    {
+      "id": "7390",
+      "contactId": "4",
+      "sender": "me",
+      "text": "asdasd",
+      "time": "07:25 PM"
+    },
+    {
+      "id": "5a1f",
+      "contactId": "3",
+      "sender": "me",
+      "text": "21",
+      "time": "07:31 PM"
+    },
+    {
+      "id": "9dd5",
+      "contactId": "1",
+      "sender": "me",
+      "text": "dlfmms",
+      "time": "07:31 PM"
+    },
+    {
+      "id": "2e72",
+      "contactId": "3",
+      "sender": "me",
+      "text": "xfcgvhbnm,.",
+      "time": "07:31 PM"
+    },
+    {
+      "id": "9748",
+      "contactId": "e1c1",
+      "sender": "me",
+      "text": "gvhbjnkm,",
+      "time": "07:31 PM"
+    },
+    {
+      "id": "27f4",
+      "contactId": "3",
+      "sender": "me",
+      "text": "yes babe",
+      "time": "06:38 PM"
+    },
+    {
+      "id": "bc82",
+      "contactId": "3",
+      "sender": "me",
+      "text": "dlsld",
+      "time": "07:21 PM"
+    },
+    {
+      "id": "e10f",
+      "contactId": "3",
+      "sender": "me",
+      "text": "sls",
+      "time": "07:21 PM"
+    },
+    {
+      "id": "72eb",
+      "contactId": "3",
+      "sender": "me",
+      "text": "fgh",
+      "time": "07:22 PM"
+    },
+    {
+      "id": "3bd5",
+      "contactId": "4",
+      "sender": "me",
+      "text": "jonka",
+      "time": "06:40 PM"
+    },
+    {
+      "id": "a1a9",
+      "contactId": "805d",
+      "sender": "me",
+      "text": "men qora emasman",
+      "time": "07:05 PM"
+    },
+    {
+      "id": "56a7",
+      "contactId": "6",
+      "sender": "me",
+      "text": "sdk",
+      "time": "07:05 PM"
+    },
+    {
+      "id": "427f",
+      "contactId": "3",
+      "sender": "me",
+      "text": "sdlfd",
+      "time": "07:13 PM"
+    },
+    {
+      "id": "2968",
+      "contactId": "e1c1",
+      "sender": "me",
+      "text": ";dls",
+      "time": "07:13 PM"
+    },
+    {
+      "id": "dfcf",
+      "contactId": "5",
+      "sender": "me",
+      "text": "sldlls",
+      "time": "07:14 PM"
+    },
+    {
+      "id": "f8e9",
+      "contactId": "1",
+      "sender": "me",
+      "text": "zzz",
+      "time": "07:14 PM"
+    },
+    {
+      "id": "15f3",
+      "contactId": "3",
+      "sender": "me",
+      "text": "zzz",
+      "time": "07:14 PM"
+    },
+    {
+      "id": "4a6f",
+      "contactId": "5",
+      "sender": "me",
+      "text": "zzzzz",
+      "time": "07:15 PM"
+    },
+    {
+      "id": "a62d",
+      "contactId": "3",
+      "sender": "me",
+      "text": "zz",
+      "time": "07:18 PM"
+    },
+    {
+      "id": "fbf4",
+      "contactId": "3",
+      "sender": "me",
+      "text": "ssssa",
+      "time": "07:18 PM"
+    },
+    {
+      "id": "f2ec",
+      "contactId": "3",
+      "sender": "me",
+      "text": "xsxsxxs",
+      "time": "07:18 PM"
+    },
+    {
+      "id": "9189",
+      "contactId": "805d",
+      "sender": "me",
+      "text": "salom kot test",
+      "time": "07:32 PM"
+    },
+    {
+      "id": "e575",
+      "contactId": "3",
+      "sender": "me",
+      "text": "sds",
+      "time": "07:37 PM"
+    },
+    {
+      "id": "940b",
+      "contactId": "e1c1",
+      "sender": "me",
+      "text": "sldksl",
+      "time": "07:37 PM"
+    }
+  ],
+  "paymentHistory": [
+    {
+      "id": "1",
+      "name": "Robert Johnson",
+      "avatar": "https://i.pravatar.cc/36?img=11",
+      "date": "Jan 20, 2021",
+      "amount": "$250.00",
+      "status": "Completed",
+      "method": "Credit Card"
+    },
+    {
+      "id": "2",
+      "name": "Chloe Jake",
+      "avatar": "https://i.pravatar.cc/36?img=32",
+      "date": "Jan 18, 2021",
+      "amount": "$180.50",
+      "status": "Completed",
+      "method": "PayPal"
+    },
+    {
+      "id": "3",
+      "name": "Roberto",
+      "avatar": "https://i.pravatar.cc/36?img=12",
+      "date": "Jan 15, 2021",
+      "amount": "$320.00",
+      "status": "Pending",
+      "method": "Bank Transfer"
+    },
+    {
+      "id": "4",
+      "name": "Lisa Blakenship",
+      "avatar": "https://i.pravatar.cc/36?img=26",
+      "date": "Jan 12, 2021",
+      "amount": "$95.00",
+      "status": "Completed",
+      "method": "Credit Card"
+    },
+    {
+      "id": "5",
+      "name": "Chris Braun",
+      "avatar": "https://i.pravatar.cc/36?img=53",
+      "date": "Jan 10, 2021",
+      "amount": "$450.00",
+      "status": "Failed",
+      "method": "Debit Card"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "1",
+      "title": "Grocery Store",
+      "amount": "-$85.50",
+      "type": "expense",
+      "date": "Today",
+      "icon": "🛒"
+    },
+    {
+      "id": "2",
+      "title": "Salary Deposit",
+      "amount": "+$3,200.00",
+      "type": "income",
+      "date": "Yesterday",
+      "icon": "💰"
+    },
+    {
+      "id": "3",
+      "title": "Netflix Subscription",
+      "amount": "-$15.99",
+      "type": "expense",
+      "date": "Jan 15",
+      "icon": "🎬"
+    },
+    {
+      "id": "4",
+      "title": "Freelance Payment",
+      "amount": "+$450.00",
+      "type": "income",
+      "date": "Jan 14",
+      "icon": "💼"
+    },
+    {
+      "id": "5",
+      "title": "Restaurant",
+      "amount": "-$62.30",
+      "type": "expense",
+      "date": "Jan 13",
+      "icon": "🍽️"
+    },
+    {
+      "id": "1f63",
+      "title": "Sent to Lisa Blakenship",
+      "amount": "-$122.00",
+      "type": "expense",
+      "date": "Today 18:44",
+      "icon": "💸"
+    },
+    {
+      "id": "2b1f",
+      "title": "Sent to Chloe Jake",
+      "amount": "-$5555.00",
+      "type": "expense",
+      "date": "Today 18:44",
+      "icon": "💸"
+    },
+    {
+      "id": "fac2",
+      "title": "Sent to Robert Johnson",
+      "amount": "-$3444.00",
+      "type": "expense",
+      "date": "Today 18:50",
+      "icon": "💸"
+    },
+    {
+      "id": "36ba",
+      "title": "Sent to Roberto",
+      "amount": "-$555.00",
+      "type": "expense",
+      "date": "Today 18:54",
+      "icon": "💸"
+    },
+    {
+      "id": "3951",
+      "title": "Sent to Roberto",
+      "amount": "-$555.00",
+      "type": "expense",
+      "date": "Today 18:55",
+      "icon": "💸"
+    }
+  ],
+  "walletBalance": [
+    {
+      "id": "1",
+      "amount": 630407.55
+    }
+  ],
+  "incomingPayments": [
+    {
+      "id": "1",
+      "name": "Mark Spencer",
+      "avatar": "https://i.pravatar.cc/36?img=3",
+      "amount": "$500.00",
+      "date": "Today 09:15 AM",
+      "method": "Bank Transfer"
+    },
+    {
+      "id": "2",
+      "name": "Anna Williams",
+      "avatar": "https://i.pravatar.cc/36?img=7",
+      "amount": "$1,200.00",
+      "date": "Yesterday",
+      "method": "PayPal"
+    },
+    {
+      "id": "3",
+      "name": "David Chen",
+      "avatar": "https://i.pravatar.cc/36?img=4",
+      "amount": "$300.00",
+      "date": "Jan 18",
+      "method": "Credit Card"
+    },
+    {
+      "id": "4",
+      "name": "Sophia Lee",
+      "avatar": "https://i.pravatar.cc/36?img=9",
+      "amount": "$750.00",
+      "date": "Jan 15",
+      "method": "Debit Card"
+    },
+    {
+      "id": "5",
+      "name": "Michael Brown",
+      "avatar": "https://i.pravatar.cc/36?img=6",
+      "amount": "$180.00",
+      "date": "Jan 12",
+      "method": "Bank Transfer"
+    }
+  ],
+  "balanceOverview": {
+    "monthly": {
+      "labels": [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec"
+      ],
+      "data": [
+        30000,
+        42000,
+        38000,
+        51000,
+        48000,
+        61000,
+        55000,
+        62000,
+        58000,
+        63000,
+        60000,
+        65000
+      ]
+    },
+    "weekly": {
+      "labels": [
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "data": [
+        8200,
+        7500,
+        9100,
+        8800,
+        11200,
+        13500,
+        10400
+      ]
+    }
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}

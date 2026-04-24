@@ -1,0 +1,196 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - heading "Sedap." [level=1] [ref=e6]
+      - paragraph [ref=e7]: Modern Admin Dashboard
+    - navigation [ref=e8]:
+      - link "Dashboard" [ref=e9] [cursor=pointer]:
+        - /url: /dashboard
+        - img [ref=e10]
+        - text: Dashboard
+      - link "Order List" [ref=e15] [cursor=pointer]:
+        - /url: /orderlist
+        - img [ref=e16]
+        - text: Order List
+      - link "Order Detail" [ref=e19] [cursor=pointer]:
+        - /url: /orderdetail
+        - img [ref=e20]
+        - text: Order Detail
+      - link "Customer" [ref=e23] [cursor=pointer]:
+        - /url: /customer
+        - img [ref=e24]
+        - text: Customer
+      - link "Analytics" [ref=e29] [cursor=pointer]:
+        - /url: /analytics
+        - img [ref=e30]
+        - text: Analytics
+      - link "Reviews" [ref=e32] [cursor=pointer]:
+        - /url: /reviews
+        - img [ref=e33]
+        - text: Reviews
+      - link "Foods" [ref=e35] [cursor=pointer]:
+        - /url: /foods
+        - img [ref=e36]
+        - text: Foods
+      - link "Food Detail" [ref=e41] [cursor=pointer]:
+        - /url: /fooddetail
+        - img [ref=e42]
+        - text: Food Detail
+      - link "Customer Detail" [ref=e44] [cursor=pointer]:
+        - /url: /customerdetail
+        - img [ref=e45]
+        - text: Customer Detail
+      - link "Calendar" [ref=e49] [cursor=pointer]:
+        - /url: /calendar
+        - img [ref=e50]
+        - text: Calendar
+      - link "Chat" [ref=e52] [cursor=pointer]:
+        - /url: /chat
+        - img [ref=e53]
+        - text: Chat
+      - link "Wallet" [ref=e55] [cursor=pointer]:
+        - /url: /wallet
+        - img [ref=e56]
+        - text: Wallet
+    - generic [ref=e59]:
+      - paragraph [ref=e60]: Please, organize your menus through button below!
+      - button "Add Menus" [ref=e61]:
+        - img [ref=e62]
+        - text: Add Menus
+    - generic [ref=e63]:
+      - paragraph [ref=e64]: Sedap Restaurant Admin Dashboard
+      - paragraph [ref=e65]: © 2024 All Rights Reserved
+      - paragraph [ref=e66]: Made with ❤ by Themesberg
+  - generic [ref=e67]:
+    - banner [ref=e68]:
+      - generic [ref=e69]:
+        - img [ref=e70]
+        - textbox "Search here" [ref=e73]
+      - generic [ref=e74]:
+        - button "3" [ref=e75]:
+          - img [ref=e76]
+          - generic [ref=e79]: "3"
+        - button "1" [ref=e80]:
+          - img [ref=e81]
+          - generic [ref=e83]: "1"
+        - button "2" [ref=e84]:
+          - img [ref=e85]
+          - generic [ref=e87]: "2"
+        - button "5" [ref=e88]:
+          - img [ref=e89]
+          - generic [ref=e92]: "5"
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - text: Hello,
+            - strong [ref=e95]: Samantha
+          - img "avatar" [ref=e96]
+    - main [ref=e97]:
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - heading "April 2021" [level=2] [ref=e101]
+            - button [ref=e102]:
+              - img [ref=e103]
+            - button [ref=e105]:
+              - img [ref=e106]
+          - generic [ref=e108]:
+            - generic [ref=e109]:
+              - button "Date" [ref=e110]
+              - button "Week" [ref=e111]
+              - button "Month" [ref=e112]
+              - button "Year" [ref=e113]
+            - button "Today (26)" [ref=e114]
+            - button "New Schedule" [ref=e115]:
+              - img [ref=e116]
+              - text: New Schedule
+        - generic [ref=e117]:
+          - generic [ref=e118]:
+            - generic [ref=e119]: Sunday
+            - generic [ref=e120]: Monday
+            - generic [ref=e121]: Tuesday
+            - generic [ref=e122]: Wednesday
+            - generic [ref=e123]: Thursday
+            - generic [ref=e124]: Friday
+            - generic [ref=e125]: Saturday
+          - generic [ref=e126]:
+            - generic [ref=e128]: "28"
+            - generic [ref=e130]: "29"
+            - generic [ref=e132]: "30"
+            - generic [ref=e134]: "31"
+            - generic [ref=e136]: "1"
+            - generic [ref=e137]:
+              - generic [ref=e138]: "2"
+              - generic [ref=e139]:
+                - generic [ref=e140]:
+                  - generic [ref=e141]: Spicy Risotto
+                  - generic [ref=e142]: 12:00 AM
+                - generic [ref=e143]:
+                  - generic [ref=e144]: Pizza w/ Parmesan With Barbecue
+                  - generic [ref=e145]: Event
+            - generic [ref=e146]:
+              - generic [ref=e147]: "3"
+              - generic [ref=e150]: Event
+          - generic [ref=e151]:
+            - generic [ref=e153]: "4"
+            - generic [ref=e155]: "5"
+            - generic [ref=e157]: "6"
+            - generic [ref=e159]: "7"
+            - generic [ref=e160]:
+              - generic [ref=e161]: "8"
+              - generic [ref=e163]:
+                - generic [ref=e164]: New Event
+                - generic [ref=e165]: 11:00 AM
+            - generic [ref=e167]: "9"
+            - generic [ref=e169]: "10"
+          - generic [ref=e170]:
+            - generic [ref=e172]: "11"
+            - generic [ref=e174]: "12"
+            - generic [ref=e176]: "13"
+            - generic [ref=e177]:
+              - generic [ref=e178]: "14"
+              - generic [ref=e181]: Event
+            - generic [ref=e183]: "15"
+            - generic [ref=e185]: "16"
+            - generic [ref=e187]: "17"
+          - generic [ref=e188]:
+            - generic [ref=e189]:
+              - generic [ref=e190]: "18"
+              - generic [ref=e191]:
+                - generic [ref=e193]: Spicy Risotto
+                - generic [ref=e194]:
+                  - generic [ref=e195]: Pizza w/ Parmesan With Barbecue
+                  - generic [ref=e196]: Event
+            - generic [ref=e198]: "19"
+            - generic [ref=e200]: "20"
+            - generic [ref=e202]: "21"
+            - generic [ref=e203]:
+              - generic [ref=e204]: "22"
+              - generic [ref=e205]:
+                - generic [ref=e206]:
+                  - generic [ref=e207]: Spicy Risotto
+                  - generic [ref=e208]: Event
+                - generic [ref=e209]:
+                  - generic [ref=e210]: Pizza w/ Parmesan With Barbecue
+                  - generic [ref=e211]: Event
+            - generic [ref=e213]: "23"
+            - generic [ref=e215]: "24"
+          - generic [ref=e216]:
+            - generic [ref=e217]:
+              - generic [ref=e218]: "25"
+              - generic [ref=e220]:
+                - generic [ref=e221]: New Event
+                - generic [ref=e222]: 09:15 AM
+            - generic [ref=e224]: "26"
+            - generic [ref=e226]: "27"
+            - generic [ref=e228]: "28"
+            - generic [ref=e230]: "29"
+            - generic [ref=e232]: "30"
+            - generic [ref=e234]: "1"
+          - generic [ref=e235]:
+            - generic [ref=e237]: "2"
+            - generic [ref=e239]: "3"
+            - generic [ref=e241]: "4"
+            - generic [ref=e243]: "5"
+            - generic [ref=e245]: "6"
+            - generic [ref=e247]: "7"
+            - generic [ref=e249]: "8"
