@@ -44,6 +44,9 @@ export default function Dashboard() {
   const [foods, setFoods] = useState([]);
   const [orderedTab, setOrderedTab] = useState("Monthly");
 
+  const currentUser = JSON.parse(localStorage.getItem("user") || "{}");
+  const userName = currentUser.name || currentUser.displayName || "User";
+
   useEffect(() => {
     fetch("http://localhost:3001/foods")
       .then(r => r.json())
@@ -187,7 +190,7 @@ export default function Dashboard() {
         <div className="flex items-center justify-between">
           <div>
             <h2 className="text-xl font-bold text-gray-900 dark:text-white">Dashboard</h2>
-            <p className="text-sm text-gray-400">Hi, Samantha. Welcome back to Sedap Admin!</p>
+            <p className="text-sm text-gray-400">Hi, {userName}. Welcome back to Sedap Admin!</p>
           </div>
           <button className="flex items-center gap-2 border border-gray-200 dark:border-gray-700 rounded-xl px-4 py-2 text-sm text-gray-600 dark:text-gray-300 bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 transition shadow-sm">
             <CalendarDays className="w-4 h-4 text-teal-500" strokeWidth={2} />
