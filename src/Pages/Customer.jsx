@@ -15,11 +15,19 @@ export default function Customer() {
   const [sortOrder, setSortOrder] = useState(null);
 
   const handleEditSave = () => {
+    fetch(`http://localhost:3001/customers/${encodeURIComponent(editCustomer.id)}`, {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(editCustomer),
+    }).catch(() => {});
     setCustomers(prev => prev.map(c => c.id === editCustomer.id ? editCustomer : c));
     setEditCustomer(null);
   };
 
   const handleDelete = () => {
+    fetch(`http://localhost:3001/customers/${encodeURIComponent(deleteCustomer.id)}`, {
+      method: "DELETE",
+    }).catch(() => {});
     setCustomers(prev => prev.filter(c => c.id !== deleteCustomer.id));
     setDeleteCustomer(null);
   };

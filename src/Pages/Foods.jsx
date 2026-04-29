@@ -15,6 +15,7 @@ export default function Foods() {
   const location = useLocation();
   const [foods, setFoods] = useState([]);
   const [view, setView] = useState("grid");
+  const [searchQuery, setSearchQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [editFood, setEditFood] = useState(null);
   const [editForm, setEditForm] = useState({});
@@ -38,9 +39,15 @@ export default function Foods() {
     }
   }, [location.state]);
 
+  const filtered = foods.filter(f =>
+    f.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    f.category.toLowerCase().includes(searchQuery.toLowerCase()) ||
+    (f.subCategory || "").toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   const perPage = 10;
-  const totalPages = Math.ceil(foods.length / perPage);
-  const paged = foods.slice((currentPage-1)*perPage, currentPage*perPage);
+  const totalPages = Math.ceil(filtered.length / perPage);
+  const paged = filtered.slice((currentPage - 1) * perPage, currentPage * perPage);
 
   const handleView = (id) => {
     navigate(`/fooddetail/${id}`);
@@ -122,7 +129,13 @@ export default function Foods() {
         <div className="flex items-center gap-3">
           <div className="relative flex-1">
             <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400" strokeWidth={2} />
-            <input type="text" placeholder="Search here" className="pl-9 pr-4 py-2 border border-gray-200 dark:border-gray-600 rounded-xl text-sm outline-none focus:border-teal-300 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200"/>
+            <input
+              type="text"
+              placeholder="Search here"
+              value={searchQuery}
+              onChange={e => { setSearchQuery(e.target.value); setCurrentPage(1); }}
+              className="pl-9 pr-4 py-2 border border-gray-200 dark:border-gray-600 rounded-xl text-sm outline-none focus:border-teal-300 bg-white dark:bg-gray-700 text-gray-800 dark:text-gray-200"
+            />
           </div>
           <div className="flex border border-gray-200 dark:border-gray-600 rounded-xl overflow-hidden bg-white dark:bg-gray-700">
             <button onClick={()=>setView("list")} className={`px-3 py-2 ${view==="list"?"bg-teal-50 text-teal-600":"text-gray-400"}`}>
@@ -139,53 +152,103 @@ export default function Foods() {
         </div>
       </div>
 
-      {/* Food Grid */}
+      {/* Food Grid / List */}
       <div className="bg-white dark:bg-gray-800 rounded-2xl p-5 shadow-sm mb-5">
-        <div className="grid grid-cols-5 gap-4">
-          {paged.map(food => (
-            <div key={food.id} className="rounded-xl border border-gray-100 dark:border-gray-700 overflow-hidden hover:shadow-md transition bg-white dark:bg-gray-700">
-              <div className="relative">
-                <img src={food.img} alt={food.name} className="w-full h-32 object-cover"/>
-                {!food.available && (
-                  <div className="absolute inset-0 bg-gray-900/40 flex items-center justify-center">
-                    <span className="text-white text-xs font-semibold">Unavailable</span>
+        {paged.length === 0 ? (
+          <div className="flex flex-col items-center justify-center py-16 text-gray-400">
+            <Search className="w-10 h-10 mb-3 opacity-40" strokeWidth={1.5} />
+            <p className="text-sm font-medium">Hech narsa topilmadi</p>
+            <p className="text-xs mt-1">"{searchQuery}" bo'yicha natija yo'q</p>
+          </div>
+        ) : view === "grid" ? (
+          <div className="grid grid-cols-5 gap-4">
+            {paged.map(food => (
+              <div key={food.id} className="rounded-xl border border-gray-100 dark:border-gray-700 overflow-hidden hover:shadow-md transition bg-white dark:bg-gray-700">
+                <div className="relative">
+                  <img src={food.img} alt={food.name} className="w-full h-32 object-cover"/>
+                  {!food.available && (
+                    <div className="absolute inset-0 bg-gray-900/40 flex items-center justify-center">
+                      <span className="text-white text-xs font-semibold">Unavailable</span>
+                    </div>
+                  )}
+                </div>
+                <div className="p-3">
+                  <p className="text-sm font-semibold text-gray-800 dark:text-gray-100 leading-tight">{food.name}</p>
+                  <p className="text-xs text-teal-500 mt-0.5">{food.category} / {food.subCategory}</p>
+                  <div className="flex items-center justify-between mt-2 pt-2 border-t border-gray-50 dark:border-gray-600">
+                    <button onClick={() => handleView(food.id)} className="text-gray-400 hover:text-teal-500 transition flex flex-col items-center gap-0.5">
+                      <Eye className="w-3.5 h-3.5" strokeWidth={2} />
+                      <span className="text-[9px]">View</span>
+                    </button>
+                    <button onClick={() => handleEdit(food)} className="text-gray-400 hover:text-blue-500 transition flex flex-col items-center gap-0.5">
+                      <Pencil className="w-3.5 h-3.5" strokeWidth={2} />
+                      <span className="text-[9px]">Edit</span>
+                    </button>
+                    <button onClick={() => handleDelete(food.id)} className="text-gray-400 hover:text-red-500 transition flex flex-col items-center gap-0.5">
+                      <Trash2 className="w-3.5 h-3.5" strokeWidth={2} />
+                      <span className="text-[9px]">Delete</span>
+                    </button>
+                    <button onClick={() => handleDuplicate(food)} className="text-gray-400 hover:text-teal-500 transition flex flex-col items-center gap-0.5">
+                      <Copy className="w-3.5 h-3.5" strokeWidth={2} />
+                      <span className="text-[9px]">Duplicate</span>
+                    </button>
                   </div>
-                )}
+                </div>
               </div>
-              <div className="p-3">
-                <p className="text-sm font-semibold text-gray-800 dark:text-gray-100 leading-tight">{food.name}</p>
-                <p className="text-xs text-teal-500 mt-0.5">{food.category} / {food.subCategory}</p>
-                <div className="flex items-center justify-between mt-2 pt-2 border-t border-gray-50 dark:border-gray-600">
-                  <button onClick={() => handleView(food.id)} className="text-gray-400 hover:text-teal-500 transition flex flex-col items-center gap-0.5">
+            ))}
+          </div>
+        ) : (
+          <div className="divide-y divide-gray-50 dark:divide-gray-700">
+            <div className="grid grid-cols-12 gap-3 px-3 pb-2 text-xs font-semibold text-gray-400 uppercase tracking-wider">
+              <div className="col-span-4">Name</div>
+              <div className="col-span-2">Category</div>
+              <div className="col-span-2">Sub Category</div>
+              <div className="col-span-1 text-right">Price</div>
+              <div className="col-span-1 text-center">Rating</div>
+              <div className="col-span-1 text-center">Status</div>
+              <div className="col-span-1 text-center">Actions</div>
+            </div>
+            {paged.map(food => (
+              <div key={food.id} className="grid grid-cols-12 gap-3 px-3 py-3 items-center hover:bg-gray-50 dark:hover:bg-gray-700/50 transition rounded-xl">
+                <div className="col-span-4 flex items-center gap-3">
+                  <img src={food.img} alt={food.name} className="w-10 h-10 rounded-lg object-cover flex-shrink-0" />
+                  <p className="text-sm font-semibold text-gray-800 dark:text-gray-100 truncate">{food.name}</p>
+                </div>
+                <div className="col-span-2 text-sm text-gray-500 dark:text-gray-400">{food.category}</div>
+                <div className="col-span-2 text-sm text-teal-500">{food.subCategory || "—"}</div>
+                <div className="col-span-1 text-sm font-semibold text-gray-800 dark:text-gray-100 text-right">
+                  {food.price ? `$${parseFloat(food.price).toFixed(2)}` : "—"}
+                </div>
+                <div className="col-span-1 text-xs text-gray-500 text-center">⭐ {food.rating}</div>
+                <div className="col-span-1 text-center">
+                  <span className={`text-[10px] font-semibold px-2 py-0.5 rounded-full ${food.available ? "bg-green-50 text-green-600" : "bg-red-50 text-red-500"}`}>
+                    {food.available ? "Active" : "Off"}
+                  </span>
+                </div>
+                <div className="col-span-1 flex items-center justify-center gap-1.5">
+                  <button onClick={() => handleView(food.id)} className="text-gray-400 hover:text-teal-500 transition" title="View">
                     <Eye className="w-3.5 h-3.5" strokeWidth={2} />
-                    <span className="text-[9px]">View</span>
                   </button>
-                  <button onClick={() => handleEdit(food)} className="text-gray-400 hover:text-blue-500 transition flex flex-col items-center gap-0.5">
+                  <button onClick={() => handleEdit(food)} className="text-gray-400 hover:text-blue-500 transition" title="Edit">
                     <Pencil className="w-3.5 h-3.5" strokeWidth={2} />
-                    <span className="text-[9px]">Edit</span>
                   </button>
-                  <button onClick={() => handleDelete(food.id)} className="text-gray-400 hover:text-red-500 transition flex flex-col items-center gap-0.5">
+                  <button onClick={() => handleDelete(food.id)} className="text-gray-400 hover:text-red-500 transition" title="Delete">
                     <Trash2 className="w-3.5 h-3.5" strokeWidth={2} />
-                    <span className="text-[9px]">Delete</span>
-                  </button>
-                  <button onClick={() => handleDuplicate(food)} className="text-gray-400 hover:text-teal-500 transition flex flex-col items-center gap-0.5">
-                    <Copy className="w-3.5 h-3.5" strokeWidth={2} />
-                    <span className="text-[9px]">Duplicate</span>
                   </button>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        )}
 
         <div className="flex items-center justify-between mt-4 pt-4 border-t border-gray-50 dark:border-gray-700">
-          <p className="text-sm text-gray-500 dark:text-gray-400">Showing {paged.length} from {foods.length} Menu</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400">Showing {paged.length} from {filtered.length} Menu</p>
           <div className="flex items-center gap-1">
-            <button onClick={()=>setCurrentPage(p=>Math.max(1,p-1))} className="w-8 h-8 rounded-lg border border-gray-200 flex items-center justify-center text-gray-400 hover:bg-gray-50">&lsaquo;</button>
-            {Array.from({length:totalPages},(_,i)=>i+1).map(p=>(
-              <button key={p} onClick={()=>setCurrentPage(p)} className={`w-8 h-8 rounded-lg text-sm font-medium ${p===currentPage?"bg-teal-500 text-white":"border border-gray-200 dark:border-gray-700 text-gray-500 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-700"}`}>{p}</button>
+            <button onClick={() => setCurrentPage(p => Math.max(1, p - 1))} className="w-8 h-8 rounded-lg border border-gray-200 flex items-center justify-center text-gray-400 hover:bg-gray-50">&lsaquo;</button>
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map(p => (
+              <button key={p} onClick={() => setCurrentPage(p)} className={`w-8 h-8 rounded-lg text-sm font-medium ${p === currentPage ? "bg-teal-500 text-white" : "border border-gray-200 dark:border-gray-700 text-gray-500 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-700"}`}>{p}</button>
             ))}
-            <button onClick={()=>setCurrentPage(p=>Math.min(totalPages,p+1))} className="w-8 h-8 rounded-lg border border-gray-200 flex items-center justify-center text-gray-400 hover:bg-gray-50">&rsaquo;</button>
+            <button onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))} className="w-8 h-8 rounded-lg border border-gray-200 flex items-center justify-center text-gray-400 hover:bg-gray-50">&rsaquo;</button>
           </div>
         </div>
       </div>
